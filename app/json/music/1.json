@@ -1,0 +1,69 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+    	"options": {"playTo": 15750},
+        "answers": [
+            { "answerText": "on morsiamell\\' kruunattu pää", "correct": true },
+            { "answerText": "on morsian ja sulhanen tääl"},
+            { "answerText": "morsiamell\" on palmikoitu pää"}
+        ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 25800},
+      "answers": [
+          { "answerText": "miten hauskaa voi olla tää vaan" },
+          { "answerText": "sydän kylmä voi olla kuin jää", "correct": true },
+          { "answerText": "kylmään sydämmeen lämpöä tuo"}
+      ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 56000},
+      "answers": [
+          { "answerText": "ja loistettaan välkehtii" },
+          { "answerText": "lasit kristallin välkehtii" },
+          { "answerText": "ja kristallit kimaltelee", "correct": true}
+      ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 72900},
+      "answers": [
+          { "answerText": "raitilla valssiks" },
+          { "answerText": "raitilla tanssiks", "correct": true },
+          { "answerText": "maantiellä juoksuks" }
+      ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 92900},
+      "answers": [
+          { "answerText": "rakastan ja kaihoan ain\\'", "correct": true },
+          { "answerText": "minä aina ikävöin vain" },
+          { "answerText": "koskaan mä unhoita en" }
+      ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 106700},
+      "answers": [
+          { "answerText": "unelmat repussaan" },
+          { "answerText": "kantaen kohtaloaan", "correct": true },
+          { "answerText": "odottaen tulevaa" }
+      ]
+    },{
+      "gameId": 1,
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 144600},
+      "answers": [
+          { "answerText": "kiristää vyö", "correct": true },
+          { "answerText": "ahdistaa työ"},
+          { "answerText": "valssiksi lyön" }
+      ]
+    }
+  ]
+}
