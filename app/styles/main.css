@@ -12,10 +12,10 @@
   position: absolute;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 90%;
   text-align: center;
   margin: 0 auto;
-  height: 200px;
+  height: 220px;
   top: 50%;
   margin-top: -100px;
   background-color: whitesmoke;
@@ -39,7 +39,7 @@
 }
 .game-row .media-view .media-controls {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -54,6 +54,15 @@
 }
 .game-row .media-view .media-controls h3 {
   text-shadow: 1px 1px 1px black;
+}
+.game-row .media-view .media-controls .progress {
+  margin: 0 20px;
+}
+.game-row .media-view .media-controls .progress .marker {
+  width: 1px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
 }
 .game-row .media-view .caption {
   position: absolute;
@@ -70,21 +79,47 @@
   height: 50%;
 }
 .game-row .question-view .question-box {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
-  background: #fcf8e3;
-  color: #c09853;
+  float: left;
+  width: 100%;
   padding: 25px;
   border-radius: 6px;
   border: 1px solid #fbeed5;
-  font-size: 1.3em;
+  font-size: 1.7em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+  margin: 20px 0;
+}
+.game-row .question-view .answers-box {
+  float: left;
+  margin: 0 auto 15px auto;
+  text-align: center;
+  width: 100%;
+}
+.game-row .question-view .answers-box button {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  white-space: normal;
+  font-weight: bold;
+  height: 75px;
+}
+.game-row .question-view .answers-box .btn-default {
+  background-color: silver;
+}
+.game-row .question-view .scores h1 {
+  text-align: center;
+}
+.game-row .question-view .scores button {
+  margin-bottom: 10px;
+}
+.game-row .question-view .scores img {
+  width: 100%;
+  padding: 20px 40px;
+}
+.game-row .question-view .scores .alert {
+  text-align: center;
+}
+.game-row .question-view .scores .alert h3 {
+  margin-top: 0;
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -96,6 +131,7 @@ html,
 body {
   padding: 0;
   height: 100%;
+  overflow-x: hidden;
 }
 html .navbar,
 body .navbar {
