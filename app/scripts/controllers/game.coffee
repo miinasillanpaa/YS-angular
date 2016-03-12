@@ -1,17 +1,22 @@
 'use strict'
 
-###*
- # @ngdoc function
- # @name ysAngularApp.controller:GameCtrl
- # @description
- # # GameCtrl
- # Controller of the ysAngularApp
-###
 angular.module 'ysAngularApp'
-  .controller 'GameCtrl', ->
-    @awesomeThings = [
-      'HTML5 Boilerplate'
-      'AngularJS'
-      'Karma'
-    ]
-    return
+  .controller 'GameCtrl', ($scope, $routeParams, httpService) ->
+    $scope.showModal = false # debug, set to true
+    gameType = $routeParams.gameType
+    gameId = $routeParams.gameId
+
+    # fetch game information
+    httpService.getGames(gameType).then (games) ->
+      $scope.game = games.data[gameId-1]
+      console.log $scope.game
+    # fetch questions and intro
+    httpService.getGame(gameType, gameId).then (game) ->
+      $scope.intro = game.data.intro
+      $scope.questions = game.data.questions
+
+
+
+    # public functions
+    $scope.start = ->
+      $scope.showModal = false

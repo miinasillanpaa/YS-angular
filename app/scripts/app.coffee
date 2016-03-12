@@ -21,7 +21,7 @@ angular
         controller: 'GamesCtrl'
         controllerAs: 'games'
 
-      .when '/games/:gameType/:id',
+      .when '/games/:gameType/:gameId',
         templateUrl: 'views/game.html'
         controller: 'GameCtrl'
         controllerAs: 'game'

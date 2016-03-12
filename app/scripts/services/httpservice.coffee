@@ -21,4 +21,11 @@ angular.module 'ysAngularApp'
         .error (error) ->
           console.log "failed to load gameType: #{gameType}", error
 
+    httpService.getGame = (gameType, gameId) ->
+      $http.get "#{localUrl}/#{gameType}/#{gameId}.json"
+        .success (data) ->
+          return data
+        .error (error) ->
+          console.log "failed to load #{gameType}/#{gameId}.json", error
+
     httpService

@@ -2,8 +2,10 @@
 
 angular.module 'ysAngularApp'
   .controller 'GamesCtrl', ($scope, $routeParams, httpService) ->
-    $scope.gametype = $routeParams.gameType
+    $scope.gameType = $routeParams.gameType
 
-    httpService.getGames($scope.gametype).then (games) ->
-      console.log games
+    console.log $scope.gameType
+
+    httpService.getGames($scope.gameType).then (games) ->
+      console.log games.data
       $scope.games = games.data

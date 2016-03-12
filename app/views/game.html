@@ -1,1 +1,28 @@
-<p>This is the game view.</p>
+<div class="dim" ng-show="showModal"></div>
+<div class="my-modal" ng-show="showModal">
+  <p>{{intro}}</p >
+  <button
+    class="btn btn-primary btn-lg btn-block"
+    ng-click="start()">
+    Aloita!
+  </button>
+</div>
+
+<div class="row game-row">
+  <div
+    class="col-xs-12 col-sm-6 col-md-6 col-lg-6 media-view"
+    style="background-image: url({{game.image}})">
+    <div class="media-controls">
+      <h3 ng-bind="game.name"></h3>
+    </div>
+    <div class="caption">
+      kuva: {{game.caption}}
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 question-view">
+    <div class="question-box">
+      Miten kappaleen sanat jatkuvat?
+    </div>
+  </div>
+</div>
