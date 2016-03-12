@@ -1,0 +1,11 @@
+<h1>Mitä haluaisit harjoitella?</h1>
+
+<div class="row">
+  <div class="col-md-4 col-sm-4" ng-repeat="gametype in gametypes">
+    <a ng-href="#/games/{{gametype.target}}">
+      <div class="game-entry" style="background-image: url({{gametype.image}})">
+        <span>{{gametype.name}}</span>
+      </div>
+    </a>
+  </div>
+</div>

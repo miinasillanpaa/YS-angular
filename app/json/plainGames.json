@@ -1,0 +1,113 @@
+[{
+		"guid":1,
+    "gameType": "quiz",
+    "gameIntro": "Yhdistä vastakohdat toisiinsa.",
+		"name":"Vastakohtien yhdistäminen",
+		"image": "assets/img/vastakohdat.jpg",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna",
+		"caption": "Abstract Art Face - Ian L (Public domain)"
+	},
+	{
+		"guid":2,
+    "gameType": "quiz",
+    "gameIntro": "Lehtivisailu: missä kaupungissa kukin lehti julkaistaan?",
+		"name":"Lehtivisailu",
+		"image":"assets/img/lehtikuvat/newspapers.jpg",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+	},
+  {
+    "guid":3,
+    "gameType": "quiz",
+    "gameIntro": "Yhdistä oikea kirja kirjailijaan",
+    "name":"Kirjailijat I",
+    "image":"assets/img/kirjailijat/kir-default.jpg",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+  },
+  {
+    "guid":4,
+    "gameType": "quiz",
+    "gameIntro": "Yhdistä oikea kirja kirjailijaan",
+    "image":"assets/img/kirjailijat/kir10.jpg",
+    "name":"Kirjailijat II",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+  },
+  {
+    "guid":5,
+    "gameType": "quiz",
+    "gameIntro": "Miten eri sananlaskut jatkuvat?",
+    "image":"assets/img/sananlaskut/san1.jpg",
+    "name":"Sananlaskut I",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+  },
+  {
+    "guid":6,
+    "gameType": "quiz",
+    "gameIntro": "Miten eri sananlaskut jatkuvat?",
+    "image":"assets/img/sananlaskut/san2.jpg",
+    "name":"Sananlaskut II",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+  },
+  {
+    "guid":7,
+    "gameType": "quiz",
+    "gameIntro": "Miten eri sananlaskut jatkuvat?",
+    "image":"assets/img/sananlaskut/san3.jpg",
+    "name":"Sananlaskut III",
+		"credits": "Kysymysten suunnittelu: Sirpa Marna"
+  },
+	{
+		"guid":8,
+		"gameType": "quiz",
+		"gameIntro": "Mitä seuraavat sivistyssanat tarkoittavat?",
+		"image": "assets/img/sivistyssanat/siv1.jpg",
+		"name": "Sivistyssanat",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid":9,
+		"gameType": "quiz",
+		"gameIntro": "Valitse oikea vaihtoehto",
+		"image": "assets/img/mat/mat2.jpg",
+		"name": "Matemaattisia käsitteitä",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas",
+		"caption": "Sari Laitinen"
+	},
+	{
+		"guid":10,
+		"gameType": "quiz",
+		"gameIntro": "Valitse oikea vaihtoehto",
+		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+		"name": "Eurooppa I",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid":11,
+		"gameType": "quiz",
+		"gameIntro": "Valitse oikea vaihtoehto",
+		"image": "assets/img/eurooppa2/aloitus-tonava.jpg",
+		"name": "Eurooppa II",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 12,
+		"gameType": "quiz",
+		"gameIntro": "Valitse oikea vaihtoehto",
+		"name": "Suomi I",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas",
+		"caption": "New Blue Door - Andrew Beeston CC BY 2.0"
+	},
+	{
+		"guid": 13,
+		"gameType": "quiz",
+		"gameIntro": "Valitse oikea vaihtoehto",
+		"name": "Suomi II",
+		"image": "assets/img/ikkuna.jpg",
+		"credits": "Kysymysten suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 14,
+		"gameType": "redirectToLorut",
+		"name": "Lorut",
+		"image": "assets/img/lorut/lorut15.jpg",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+}]

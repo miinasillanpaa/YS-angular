@@ -1,0 +1,81 @@
+[{
+    "guid": 1,
+    "name": "Kulkurin Valssi I",
+    "image": "assets/img/kulkurin_valssi.jpg",
+    "gameType": "audio",
+    "caption": "Charlie Champ, “The Tramp”, 1915\" - Laura Loveday (lis. CC BY-NC-SA 2.0)",
+  	"credits": "Ruotsalainen kansansävellys, sanoitus J. A. Tanner, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 2,
+    "name": "Kulkurin Valssi II",
+    "image": "assets/img/kulkurin_valssi.jpg",
+  	"gameType": "audio",
+    "caption": "Charlie Champ, “The Tramp”, 1915\" - Laura Loveday (lis. CC BY-NC-SA 2.0)",
+  	"credits": "Ruotsalainen kansansävellys, sanoitus J. A. Tanner, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 3,
+    "name": "Lapsuuden Toverille I",
+    "image": "assets/img/lapsuuden_toverille.jpg",
+		"gameType": "audio",
+    "caption": "Grandpa`s friends - D Flam (lis. CC BY-NC 2.0)",
+		"credits": "Esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 4,
+    "name": "Lapsuuden Toverille II",
+    "image": "assets/img/lapsuuden_toverille.jpg",
+		"gameType": "audio",
+    "caption": "Grandpa`s friends - D Flam (lis. CC BY-NC 2.0)",
+		"credits": "Esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 5,
+    "name": "Väliaikainen I",
+    "image": "assets/img/valiaikainen.jpg",
+		"gameType": "audio",
+    "caption": "Jussivaellus 2012 - Verna Koskinen (lis. CC BY-SA 2.0)",
+		"credits": "Sävellys M. Jurva, sanoitus T. Pekkarinen, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 6,
+    "name": "Väliaikainen II",
+    "image": "assets/img/valiaikainen.jpg",
+		"gameType": "audio",
+    "caption": "Jussivaellus 2012 - Verna Koskinen (lis. CC BY-SA 2.0)",
+		"credits": "Sävellys M. Jurva, sanoitus T. Pekkarinen, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 7,
+    "name": "Tulipunaruusut I",
+    "image": "assets/img/tulipunaruusut.jpg",
+    "gameType": "audio",
+    "caption": "horse+sunset - Ro Irving (lis. CC BY-SA 2.0)",
+		"credits": "Sävellys ja sanoitus U. Kemppi, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 8,
+    "name": "Tulipunaruusut II",
+    "image": "assets/img/tulipunaruusut.jpg",
+		"gameType": "audio",
+    "caption": "horse+sunset - Ro Irving (lis. CC BY-SA 2.0)",
+		"credits": "Sävellys ja sanoitus U. Kemppi, esittäjä Markus Bäckman. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 9,
+    "name": "Suutarin emännän kehtolaulu",
+    "image": "assets/img/suutarin_emanta.jpg",
+		"gameType": "audio",
+    "caption": "Old sewing machine - Petr Kratochvil (Public Domain)",
+		"credits": "Esittäjät Tarja Merivirta ja Markus Bäckman.  Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+  },
+  {
+    "guid": 10,
+    "name": "Voi tuota muistia",
+    "image": "assets/img/voi_tuota_muistia.jpg",
+		"gameType": "audio",
+    "caption": "15062007(005) - Mikko Koponen (CC BY 2.0)",
+		"credits": "Kappaleen sävellys ja sanoitus A. Tarkki, esittäjä Aarre Tarkki. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+    }
+]

@@ -1,0 +1,18 @@
+[{
+  "id": 1,
+	"name": "Kielelliset harjoitukset",
+	"target": "plain",
+  "image": "assets/img/default.jpg"
+},
+{
+  "id": 2,
+	"name": "Musiikilliset harjoitukset",
+	"target": "music",
+	"image": "assets/img/grammari.jpg"
+},
+{
+  "id": 3,
+	"name": "Toiminnalliset harjoitukset",
+	"target": "action",
+	"image": "assets/img/ikkuna.jpg"
+}]
