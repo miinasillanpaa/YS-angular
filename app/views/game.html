@@ -3,7 +3,7 @@
   <p>{{intro}}</p >
   <button
     class="btn btn-primary btn-lg btn-block"
-    ng-click="start()">
+    ng-click="sound.play(); hideModal()">
     Aloita!
   </button>
 </div>
@@ -14,6 +14,21 @@
     style="background-image: url({{game.image}})">
     <div class="media-controls">
       <h3 ng-bind="game.name"></h3>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped active"
+          role="progressbar"
+          aria-valuenow="{{sound.progress}}"
+          aria-valuemin="0"
+          aria-valuemax="1"
+          style="width: {{sound.progress*100 | number:0}}%">
+            <div class="marker"
+              ng-repeat="marker in markers"
+              style="left:{{marker}}">
+            </div>
+          </div>
+        </div>
+
     </div>
     <div class="caption">
       kuva: {{game.caption}}
@@ -21,8 +36,62 @@
   </div>
 
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 question-view">
-    <div class="question-box">
-      Miten kappaleen sanat jatkuvat?
+    <div
+      class="question-box alert"
+      ng-hide="showScores"
+      ng-class="{'alert-success': answered == 'correct','alert-danger': answered == 'wrong','alert-warning': answered == 'waiting'}">
+        {{questionText}}
+        <br/>
+        <button
+          ng-if="!playing"
+          class="btn btn-default"
+          ng-click="playIntervalAgain()">Kuuntele uudestaan</button>
     </div>
+
+    <div
+      ng-hide="playing || showScores"
+      class="answers-box">
+      <button
+        ng-repeat="answer in currentQuestion.answers"
+        class="btn btn-default btn-block btn-lg answer-choice"
+        ng-click="checkAnswer(answer, $event)">
+          {{answer.answerText}}
+      </button>
+      <button
+        ng-show="answered != 'waiting'"
+        class="btn btn-primary btn-block btn-lg"
+        ng-click="sound.play(); playing = true; answered = 'waiting'; setNextQuestion();">
+          Soita seuraava katkelma
+      </button>
+    </div>
+    <button
+      ng-if="fullReplayPath"
+      class="btn btn-block btn-lg btn-default"
+      ng-click="fullReplay()">
+      Kuuntele koko kappale alusta
+    </button>
+    <div
+      class="scores"
+      ng-show="showScores">
+      <h1>Peli loppui</h1>
+      <div class="alert alert-info">
+        <h3>{{successText}}</h3>
+        <p>Sait oikeita vastauksia {{successRate | number:0}}%</p>
+      </div>
+      <p>
+        {{game.credits}}
+      </p>
+      <img src="assets/img/MSSRay.png">
+      <button
+        class="btn btn-block btn-lg btn-default">
+        Kuuntele koko kappale alusta
+      </button>
+      <a href="#/games/{{gameType}}" ng-click="stopAll()">
+        <button class="btn btn-block btn-lg btn-primary">
+          Palaa päävalikkoon
+        </button>
+      </a>
+    </div>
+
   </div>
 </div>
