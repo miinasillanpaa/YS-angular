@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Yhteinen sävel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -20,15 +20,25 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="header">
-      <div class="navbar navbar-default" role="navigation">
+    <div class="header" ng-controller="HeaderCtrl">
+      <nav class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand">Sanat sekaisin</a>
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> -->
+          </div>
+          <a class="navbar-brand clickable">Sanat sekaisin</a>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left" ng-show="showBack">
+                <li><a class="clickable" ng-click="back()">Takaisin</a></li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
+
     </div>
 
     <div class="container">
@@ -52,9 +62,9 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <!-- <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script> -->
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
@@ -67,7 +77,10 @@
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/services/httpservice.js"></script>
     <script src="scripts/controllers/games.js"></script>
-    <script src="scripts/controllers/game.js"></script>
+    <script src="scripts/controllers/header.js"></script>
+    <script src="scripts/controllers/musicgame.js"></script>
+    <script src="scripts/controllers/plaingame.js"></script>
+    <script src="scripts/controllers/actiongame.js"></script>
     <!-- endbuild -->
 </body>
 </html>
