@@ -1,15 +1,36 @@
 //main: main.less
 
 .dim {
+  // break out from relative parent
   z-index: 10;
   position: absolute;
   left: 0;
+  margin-left: -1500px;
   right: 0;
-  top: 52px;
+  margin-right: -1500px;
+  top: 0;
   bottom: 0;
   background-color: #000;
   opacity: 0.6;
 }
+
+.end-game-confirm {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  z-index: 999;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 6px;
+  button {
+    margin-top: 10px;
+  }
+}
+
 .my-modal {
   position: absolute;
   left: 0;
@@ -85,6 +106,12 @@
     border-left: 1px solid #e5e5e5;
     height: 50%;
 
+    button {
+      white-space: normal;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
     .question-box {
       float: left;
       width: 100%;
@@ -95,20 +122,27 @@
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
       box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
       margin: 20px 0;
+      text-align: center;
     }
-
+    .btn-score,  {
+      font-size: 1.3em;
+      height: 75px;
+      text-transform: uppercase;
+    }
     .answers-box {
       float: left;
       margin: 0 auto 15px auto;
       text-align: center;
       width: 100%;
 
+      .disabled, .btn[disabled] {
+        opacity: 1;
+      }
+
       button {
-        text-transform: uppercase;
         font-size: 1.3em;
-        white-space: normal;
-        font-weight: bold;
         height: 75px;
+        text-transform: uppercase;
       }
       .btn-default {
         background-color: silver;
@@ -134,7 +168,5 @@
       }
     }
 
-
   }
-
 }

@@ -2,11 +2,29 @@
   z-index: 10;
   position: absolute;
   left: 0;
+  margin-left: -1500px;
   right: 0;
-  top: 52px;
+  margin-right: -1500px;
+  top: 0;
   bottom: 0;
   background-color: #000;
   opacity: 0.6;
+}
+.end-game-confirm {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  z-index: 999;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 6px;
+}
+.end-game-confirm button {
+  margin-top: 10px;
 }
 .my-modal {
   position: absolute;
@@ -78,6 +96,11 @@
   border-left: 1px solid #e5e5e5;
   height: 50%;
 }
+.game-row .question-view button {
+  white-space: normal;
+  font-weight: bold;
+  margin-top: 5px;
+}
 .game-row .question-view .question-box {
   float: left;
   width: 100%;
@@ -88,6 +111,12 @@
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
   margin: 20px 0;
+  text-align: center;
+}
+.game-row .question-view .btn-score {
+  font-size: 1.3em;
+  height: 75px;
+  text-transform: uppercase;
 }
 .game-row .question-view .answers-box {
   float: left;
@@ -95,12 +124,14 @@
   text-align: center;
   width: 100%;
 }
+.game-row .question-view .answers-box .disabled,
+.game-row .question-view .answers-box .btn[disabled] {
+  opacity: 1;
+}
 .game-row .question-view .answers-box button {
-  text-transform: uppercase;
   font-size: 1.3em;
-  white-space: normal;
-  font-weight: bold;
   height: 75px;
+  text-transform: uppercase;
 }
 .game-row .question-view .answers-box .btn-default {
   background-color: silver;
@@ -140,21 +171,42 @@ body .navbar {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  /* Make the masthead heading the same height as the navigation */
 }
-.header .navbar .navbar-header {
+.header a {
+  cursor: default;
+}
+.header .navbar-nav a {
+  cursor: pointer;
+}
+.header .navbar-default .container {
+  border: 0;
+}
+.header .navbar-brand {
   position: absolute;
+  width: 100%;
   left: 0;
-  right: 0;
-  padding: 15px;
   text-align: center;
+  margin: auto;
 }
-.header .navbar .navbar-header .navbar-brand {
-  float: none;
+.header .navbar-collapse.collapse {
+  display: block!important;
+}
+.header .navbar-nav > li,
+.header .navbar-nav {
+  float: left !important;
+}
+.header .navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+.header .navbar-right {
+  float: right!important;
 }
 .container {
   display: block;
+  position: relative;
   height: calc(100% - 53px);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .container #ng-view {
   height: 100%;
