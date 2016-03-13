@@ -92,6 +92,7 @@
 		"guid": 12,
 		"gameType": "quiz",
 		"gameIntro": "Valitse oikea vaihtoehto",
+		"image": "assets/img/default.jpg",
 		"name": "Suomi I",
 		"credits": "Kysymysten suunnittelu: Kristiina Sarmas",
 		"caption": "New Blue Door - Andrew Beeston CC BY 2.0"
