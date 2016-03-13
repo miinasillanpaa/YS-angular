@@ -55,13 +55,10 @@ angular.module 'ysAngularApp'
 
             # previous started
             if questions[$scope.questionIndex-1]
-              console.log 'prev index', $scope.questionIndex-1
               $scope.previousStarted = (questions[$scope.questionIndex-1].options.playTo + ($scope.questionIndex-1)*AUDIO_GAP_MS)/1000
             else
               $scope.previousStarted = 0
-            console.log 'previous started', $scope.previousStarted
 
-            console.log 'was paused at', pauseAt
             $scope.sound.pause()
             $scope.playing = false
             $scope.questionText = currentQuestion.questionText
@@ -104,7 +101,6 @@ angular.module 'ysAngularApp'
       $scope.playing = true
 
     $scope.playIntervalAgain = ->
-      console.log 'will play again from', $scope.previousStarted
       $scope.sound.currentTime = $scope.previousStarted
       $scope.questionIndex--
       $scope.sound.play()
@@ -132,7 +128,6 @@ angular.module 'ysAngularApp'
       return false
 
     $scope.setNextQuestion = ->
-      console.log $scope.questionIndex, questions.length
       if $scope.questionIndex is questions.length
         $scope.questionText = "Kuuntele loppuun"
       else
