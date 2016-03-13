@@ -5,7 +5,7 @@ angular.module 'ysAngularApp'
   ($scope, $routeParams, httpService, ngAudio, $filter, $timeout, $rootScope, $location) ->
 
     AUDIO_GAP_MS = 2000
-    $scope.gameType = gameType = "music"
+    gameType = "music"
     gameId = $routeParams.gameId
 
     $rootScope.inGame = true
