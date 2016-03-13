@@ -235,6 +235,7 @@ body .navbar {
   right: 15px;
   bottom: 0;
   padding: 30px 5px;
+  line-height: 25px;
   text-align: center;
   font-size: 1.7em;
   background: rgba(0, 0, 0, 0.7);
