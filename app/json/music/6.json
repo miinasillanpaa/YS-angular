@@ -1,0 +1,59 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 9800},
+      "answers": [
+          { "answerText": "huoleton murheeton"},
+          { "answerText": "huolineen ja murheineen", "correct":true },
+          { "answerText": "murheineen ja huolineen" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 31700},
+      "answers": [
+          { "answerText": "ja onnettomuus - totta tosiaan" },
+          { "answerText": "ja huolettomuus - totta tosiaan" },
+          { "answerText": "ja pettymys tuo - totta tosiaan", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 47800},
+      "answers": [
+          { "answerText": "kultaisen hellimmän nuoruuden", "correct":true },
+          { "answerText": "kultaa sen hellimmän nuoruuden" },
+          { "answerText": "kultaa sen hellänkin nuoruuden" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 56600},
+      "answers": [
+          { "answerText": "hempeä kauneus", "correct":true },
+          { "answerText": "viehkeä hempeys" },
+          { "answerText": "hehkeä naurahdus" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 86200},
+      "answers": [
+          { "answerText": "hurma seuran..." },
+          { "answerText": "hurma viinin...", "correct":true },
+          { "answerText": "hurma ilon..." }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 105800},
+      "answers": [
+          { "answerText": "sekä sydäntä viiltävä rakkaus" },
+          { "answerText": "sekä muistoihin piirtynyt rakkaus" },
+          { "answerText": "sekä rinnassa riehuva rakkaus", "correct":true }
+      ]
+    }
+  ]
+}

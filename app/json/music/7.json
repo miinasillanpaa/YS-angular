@@ -1,0 +1,59 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 14600},
+      "answers": [
+          { "answerText": "tähdet yli pustan näyttää tien" },
+          { "answerText": "ratsuani juoksuun hoputan", "correct":true },
+          { "answerText": "ratsulleni sinne näytän tien" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 23800},
+      "answers": [
+          { "answerText": "tyttö, jota yksin rakastan", "correct":true },
+          { "answerText": "tyttö, jonka luokse halajan" },
+          { "answerText": "tyttö, jonka muistan ainiaan" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 39700},
+      "answers": [
+          { "answerText": "suukon palkaksi suot mulle", "correct":true },
+          { "answerText": "hymyn vienon annat mulle" },
+          { "answerText": "sydämen suot palkaks mulle" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 67800},
+      "answers": [
+          { "answerText": "suku suur" },
+          { "answerText": "kotini" },
+          { "answerText": "maja pien", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 76300},
+      "answers": [
+          { "answerText": "mustan orin lentoon nostan" },
+          { "answerText": "ratsun lento on kuin tulta", "correct":true },
+          { "answerText": "vauhdin hurma on niin hurja" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 96900},
+      "answers": [
+          { "answerText": "mulle suukko, sulle ruusut tulipunaiset", "correct":true },
+          { "answerText": "sulle ruusut, mulle suukot tulipunaiset" },
+          { "answerText": "mulle rakkaus, sulle ruusut tulipunaiset" }
+      ]
+    }
+  ]
+}

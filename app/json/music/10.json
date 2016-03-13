@@ -1,0 +1,50 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 17640},
+      "answers": [
+          { "answerText": "minnekä eilen retkemme johti", "correct":true },
+          { "answerText": "missähän eilen vierailimme" },
+          { "answerText": "vuosikymmenten muistot mielessä säilyy" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 36050},
+      "answers": [
+          { "answerText": "mielessä ei pysy" },
+          { "answerText": "unohtuvat kohta", "correct":true },
+          { "answerText": "vieraalta kuullostavat" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 50500},
+      "answers": [
+          { "answerText": "Armi Aavikko maailman kaunein nainen" },
+          { "answerText": "Kekkonen johtaja, kansa ylväs" },
+          { "answerText": "Kinnunen heitti, Vireeni juoksi", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 96200},
+      "answers": [
+          { "answerText": "matkassa en voi pysyä", "correct":true },
+          { "answerText": "matkassa yritän pysyä" },
+          { "answerText": "tietoverkkojen kautta se selviää" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 112700},
+      "answers": [
+          { "answerText": "piiloonko lienee se mennyt vain" },
+          { "answerText": "onko se loppunut kokonaan", "correct":true },
+          { "answerText": "mistä sen löytäisin uudestaan" }
+      ]
+    }
+  ]
+}

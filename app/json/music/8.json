@@ -1,0 +1,68 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 10070},
+      "answers": [
+          { "answerText": "illoin luokse pienen kapakan", "correct":true },
+          { "answerText": "Hiljan luoksen pienen kapakan" },
+          { "answerText": "illoin juoksen pieneen kapakkaan" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 19100},
+      "answers": [
+          { "answerText": "kuiskaa hiljaa arotuuli", "correct":true },
+          { "answerText": "arotuuli hiljaa kuiskaa" },
+          { "answerText": "hiljaa arotuuli kuiskaa" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 32800},
+      "answers": [
+          { "answerText": "meitä varten aina kukkineet" },
+          { "answerText": "sua varten vain on kukkineet", "correct":true },
+          { "answerText": "kauneimmat on meille kukkineet" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 39700},
+      "answers": [
+          { "answerText": "suukon palkaksi suot mulle", "correct":true },
+          { "answerText": "hymyn vienon annat mulle" },
+          { "answerText": "sydämen suot palkaks mulle" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 69500},
+      "answers": [
+          { "answerText": "pustan tuuli näyttää mulle tien" },
+          { "answerText": "tähdet pustan yli näyttää tien", "correct":true },
+          { "answerText": "tähdet näyttää mulle sinne tien" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 78600},
+      "answers": [
+          { "answerText": "taivaan rannan taa kun sinut vien", "correct":true },
+          { "answerText": "horisonttiin meidät kuljettaa" },
+          { "answerText": "halki pustan meidän kuljettaa" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 96900},
+      "answers": [
+          { "answerText": "mulle suukko, sulle ruusut tulipunaiset", "correct":true },
+          { "answerText": "sulle ruusut, mulle suukot tulipunaiset" },
+          { "answerText": "mulle rakkaus, sulle ruusut tulipunaiset" }
+      ]
+    }
+  ]
+}

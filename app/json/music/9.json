@@ -1,0 +1,50 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 17500},
+      "answers": [
+          { "answerText": "kun että muista meitä" },
+          { "answerText": "kun en mä tunne teitä", "correct":true },
+          { "answerText": "ja mistä mä tunnen teidät" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 30900},
+      "answers": [
+          { "answerText": "kenkiänne hakemahan", "correct":true },
+          { "answerText": "kenkiänne paikkaamahan" },
+          { "answerText": "laukkujanne noutamaahan" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 44400},
+      "answers": [
+          { "answerText": "kylälle neulomahan", "correct":true },
+          { "answerText": "maille muille vierahille" },
+          { "answerText": "juhlimaan kaupungille" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 71250},
+      "answers": [
+          { "answerText": "Liisalle mansikoita" },
+          { "answerText": "Kaisalle orvokkeja" },
+          { "answerText": "Miinalle terveisiä", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 83200},
+      "answers": [
+          { "answerText": "kenkähyllyä ulos mennessänne" },
+          { "answerText": "piimähinkkiä porstuassa mennessänne", "correct":true },
+          { "answerText": "maitotonkkaa navetassa käydässänne" }
+      ]
+    }
+  ]
+}

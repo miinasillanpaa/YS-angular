@@ -1,0 +1,59 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 17500},
+      "answers": [
+          { "answerText": "juhlien suurien" },
+          { "answerText": "helkkyvien riemuineen", "correct": true },
+          { "answerText": "kultaisten muistojen" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 27750},
+      "answers": [
+          { "answerText": "sekä sydäntä viiltävä rakkaus" },
+          { "answerText": "sekä muistoihin piirtynyt rakkaus" },
+          { "answerText": "sekä rinnassa riehuva rakkaus", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 39500},
+      "answers": [
+          { "answerText": "Tuoksu viehkeinkin kauneimman kukkasen", "correct":true },
+          { "answerText": "Väri kauneinkin punaisimman kukkasen" },
+          { "answerText": "Sävy hohtavin värikkäimmän kukkasen" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 59000},
+      "answers": [
+          { "answerText": "sekä poskien purppurapunerrus"},
+          { "answerText": "sekä huulien purppurapunerrus", "correct": true },
+          { "answerText": "sekä silmien säihkyvä kimallus" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 87500},
+      "answers": [
+          { "answerText": "mi mieltäsi nostattaa", "correct":true },
+          { "answerText": "se tunnetta nostattaaa" },
+          { "answerText": "se mieltäsi kohottaa" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 95600},
+      "answers": [
+          { "answerText": "joka rakkautesi sytyttää"},
+          { "answerText": "joka luoksesi kiiruhtaa" },
+          { "answerText": "joka helyt meillä ostattaa", "correct":true }
+      ]
+    }
+  ]
+}

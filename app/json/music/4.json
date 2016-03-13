@@ -1,0 +1,41 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 16750},
+      "answers": [
+          { "answerText": "äitisi helmoissa" },
+          { "answerText": "isäsi majassa", "correct": true },
+          { "answerText": "siskosi rinnalla" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 22000},
+      "answers": [
+          { "answerText": "kuin kukka kaunis suloinen", "correct":true },
+          { "answerText": "suloinen kukka kedolla"},
+          { "answerText": "kuin ruusu soma punainen" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 54000},
+      "answers": [
+          { "answerText": "toveri paras kaikista"},
+          { "answerText": "ja olit paras ystäväin", "correct":true },
+          { "answerText": "sä olit luottoystäväin" }
+      ]
+    },
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 81250},
+      "answers": [
+          { "answerText": "sut kauas minusta" },
+          { "answerText": "toisistaan meidätkin" },
+          { "answerText": "pois meidät toisistaan", "correct":true }
+      ]
+    }
+  ]
+}

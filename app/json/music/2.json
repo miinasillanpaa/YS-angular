@@ -1,0 +1,62 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 20600},
+      "answers": [
+          { "answerText": "siel viihdyn suo viini ja samppanja vaan", "correct": true },
+          { "answerText": "siel viihdyn,  juon viinin ja samppanjaa vain"},
+          { "answerText": "siel nautin ja viihdyn kera samppanjan vain" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 52700},
+      "answers": [
+          { "answerText": "pöydät ne herkkujaan suo" },
+          { "answerText": "kruunut ne valoaan luo", "correct": true},
+          { "answerText": "neidot ne tanssihin käy" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 67700},
+      "answers": [
+          { "answerText": "tanssahtelee" },
+          { "answerText": "kans astelee", "correct": true},
+          { "answerText": "kohdata saa" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 96700},
+      "answers": [
+          { "answerText": "maantiellä viihdyn ma vaan", "correct": true },
+          { "answerText": "maantieltä pois tahdo en" },
+          { "answerText": "pois mua sieltä ei saa" }
+      ]
+    },{
+        "questionText": "Miten kappaleen sanat jatkuvat?",
+        "options": {"playTo": 111900},
+        "answers": [
+            { "answerText": "maantiellä, maantiellä tanssin", "correct": true },
+            { "answerText": "maantiellä, harmaalla tanssin" },
+            { "answerText": "maantietä kivistä kuljen" }
+        ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 136600},
+      "answers": [
+          { "answerText": "tien valaisee kulkurilleen" },
+          { "answerText": "tien viittana kulkurin on", "correct": true },
+          { "answerText": "luo tunnelman matkaajalleen" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 147150},
+      "answers": [
+          { "answerText": "poikkean taas talohon", "correct": true },
+          { "answerText": "tanssahtelen iloiten" },
+          { "answerText": "työtä ma kaihda en" }
+      ]
+    }
+  ]
+}

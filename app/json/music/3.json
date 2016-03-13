@@ -1,0 +1,46 @@
+{
+  "intro": "Kuulet kohta laulun. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan!",
+  "questions": [
+    {
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 27500},
+      "answers": [
+        { "answerText": "vehreellä nurmella" },
+        { "answerText": "vihreellä nurmella", "correct": true },
+        { "answerText": "kosteella nurmella" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 48750},
+      "answers": [
+        { "answerText": "sä pidit hoivassa" },
+        { "answerText": "yhdessä riemuiten" },
+        { "answerText": "sä leikit kanssani", "correct": true }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 59500},
+      "answers": [
+        { "answerText": "ja ainoo iloni", "correct": true },
+        { "answerText": "kallein aarteeni" },
+        { "answerText": "ja armas läheisin" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 75750},
+      "answers": [
+        { "answerText": "maailma sitten vieroitti", "correct": true },
+        { "answerText": "maailma meidät erotti" },
+        { "answerText": "maailma meitä pyöritti" }
+      ]
+    },{
+      "questionText": "Miten kappaleen sanat jatkuvat?",
+      "options": {"playTo": 92000},
+      "answers": [
+        { "answerText": "mä muistan lämmöllä" },
+        { "answerText": "mä muistan ainiaan", "correct": true },
+        { "answerText": "luokseni kaipaisin" }
+      ]
+    }
+  ]
+}
