@@ -178,9 +178,6 @@ body .navbar {
 .header .navbar-nav a {
   cursor: pointer;
 }
-.header .navbar-default .container {
-  border: 0;
-}
 .header .navbar-brand {
   position: absolute;
   width: 100%;
@@ -205,8 +202,6 @@ body .navbar {
   display: block;
   position: relative;
   height: calc(100% - 53px);
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
 }
 .container #ng-view {
   height: 100%;
