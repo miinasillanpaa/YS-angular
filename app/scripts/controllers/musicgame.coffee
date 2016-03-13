@@ -11,8 +11,10 @@ angular.module 'ysAngularApp'
     $rootScope.inGame = true
     $scope.showModal = true # debug, set to true
     $scope.endGameConfirm = false
+
     $scope.playing = false
     $scope.fullReplayPlaying = false
+    # correct, wrong or waiting
     $scope.answered = "waiting"
 
     $scope.sound = null
@@ -39,7 +41,7 @@ angular.module 'ysAngularApp'
 
     $scope.$watchGroup ["sound.currentTime", "questionIndex"], ([currentTime, questionIndex]) ->
       if questionIndex? and currentTime
-
+        # playing
         if questionIndex < questions.length
           currentQuestion = questions[questionIndex]
           if questionIndex > 0
@@ -65,6 +67,7 @@ angular.module 'ysAngularApp'
             $scope.questionIndex++
             $scope.sound.currentTime = (currentQuestion.options.playTo + $scope.questionIndex*AUDIO_GAP_MS)/1000
         else
+          # end
           if currentTime >= $scope.sound.duration-2
             $scope.successRate = correctAnswers/questions.length*100
 
