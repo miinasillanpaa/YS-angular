@@ -1,11 +1,16 @@
 'use strict'
 
 angular.module 'ysAngularApp'
-  .controller 'GameCtrl', ($scope, $routeParams, httpService, ngAudio, $filter, $timeout) ->
+  .controller 'MusicGameCtrl',
+  ($scope, $routeParams, httpService, ngAudio, $filter, $timeout, $rootScope, $location) ->
 
     AUDIO_GAP_MS = 2000
+    $scope.gameType = gameType = "music"
+    gameId = $routeParams.gameId
 
+    $rootScope.inGame = true
     $scope.showModal = true # debug, set to true
+    $scope.endGameConfirm = false
     $scope.playing = false
     $scope.fullReplayPlaying = false
     $scope.answered = "waiting"
@@ -19,14 +24,11 @@ angular.module 'ysAngularApp'
     correctAnswers = 0
     questions = null
 
-    $scope.gameType = gameType = $routeParams.gameType
-    gameId = $routeParams.gameId
-
     # fetch game information
     httpService.getGames(gameType).then (games) ->
       $scope.game = games.data[gameId-1]
       mediaPath = $scope.game.media.toString()
-      $scope.sound = ngAudio.load(mediaPath)
+      $rootScope.sound = $scope.sound = ngAudio.load(mediaPath)
       $scope.fullReplayPath = mediaPath.substring(0, mediaPath.length-4).concat("_gapless.mp3")
 
     # fetch questions and intro
@@ -68,23 +70,33 @@ angular.module 'ysAngularApp'
         else
           if currentTime >= $scope.sound.duration-2
             $scope.successRate = correctAnswers/questions.length*100
-            if $scope.successRate <= 50 then $scope.successText = "Harjoitellaan vielä"
-            else if $scope.successRate <= 70 then "Mainiosti tiedetty"
-            else if $scope.successText <= 90 then  "Erinomaista työtä!"
-            else "Mahtavaa muistamista!"
+
+            if $scope.successRate <= 50
+              $scope.successText = "Harjoitellaan vielä"
+            else if $scope.successRate <= 70
+              $scope.successText = "Mainiosti tiedetty"
+            else if $scope.successText <= 90
+              $scope.successText = "Erinomaista työtä!"
+            else
+              $scope.successText = "Mahtavaa muistamista!"
             $scope.showScores = true
 
-    $scope.$watch "sound.duration", (duration) ->
-
-      if duration and !$scope.markers
-        console.log 'durr', duration
-        markers = []
-        for question,index in questions
-          marker = $filter('number')((question.options.playTo + (index*AUDIO_GAP_MS))/1000/duration *100,0) + "%"
-          markers.push marker
-        $scope.markers = markers
+    # $scope.$watch "sound.duration", (duration) ->
+    #
+    #   if duration and !$scope.markers
+    #     console.log 'durr', duration
+    #     markers = []
+    #     for question,index in questions
+    #       marker = $filter('number')((question.options.playTo + (index*AUDIO_GAP_MS))/1000/duration *100,0) + "%"
+    #       markers.push marker
+    #     $scope.markers = markers
 
     # internal
+    stopAll = ->
+      if $scope.sound and $scope.playing
+        $scope.sound.stop()
+      if $scope.fullReplay and $scope.fullReplayPlaying
+        $scope.fullReplay.stop()
 
     # public functions
     $scope.hideModal = ->
@@ -126,6 +138,16 @@ angular.module 'ysAngularApp'
       else
         $scope.currentQuestion = questions[$scope.questionIndex]
 
-    $scope.stopAll = ->
-      $scope.sound
-        .stop()
+    $scope.resume = ->
+      $scope.endGameConfirm = false
+      $scope.sound.play()
+
+    $scope.quit = ->
+      stopAll()
+      $scope.endGameConfirm = false
+      $rootScope.userConfirmedQuit = true
+      $location.path "/games/#{gameType}"
+
+    $rootScope.$on 'showConfirm', ->
+      $scope.sound.pause()
+      $scope.endGameConfirm = true
