@@ -104,11 +104,5 @@
 		"name": "Suomi II",
 		"image": "assets/img/ikkuna.jpg",
 		"credits": "Kysymysten suunnittelu: Kristiina Sarmas"
-	},
-	{
-		"guid": 14,
-		"gameType": "redirectToLorut",
-		"name": "Lorut",
-		"image": "assets/img/lorut/lorut15.jpg",
-		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
-}]
+	}
+]
