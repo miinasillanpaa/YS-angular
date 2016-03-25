@@ -5,7 +5,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngAudio'
+    'ngAudio',
+    'youtubePlayer'
   ]
   .run ($rootScope, $route, $location, $window, $timeout) ->
     firstLocationChangeStartDone = false
@@ -51,11 +52,6 @@ angular
         templateUrl: 'views/actiongame.html'
         controller: 'ActionGameCtrl'
         controllerAs: 'actiongame'
-
-      # .when '/games/:gameType/:gameId',
-      #   templateUrl: 'views/game.html'
-      #   controller: 'GameCtrl'
-      #   controllerAs: 'game'
 
       .otherwise
         redirectTo: '/'
