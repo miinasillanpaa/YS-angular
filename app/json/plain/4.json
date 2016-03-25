@@ -1,0 +1,135 @@
+{
+  "intro": "Yhdistä oikea kirja kirjailijaan.",
+  "questions": [
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Eeva Joenpellon kirjoittama?",
+      "answers": [
+          { "answerText": "Aatami ja Eeva" },
+          { "answerText": "Onnellinen mies" },
+          { "answerText": "Vetää kaikista ovista", "correct":true }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir27.jpg",
+      "questionText": "Mikä kirjoista on Antti Tuurin kirjoittama?",
+      "answers": [
+          { "answerText": "Onnellinen mies" },
+          { "answerText": "Nummisuutarit" },
+          { "answerText": "Ikitie", "correct":true }
+      ],
+			"caption": "Soppakanuuna - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Agatha Christien kirjoittama?",
+      "answers": [
+          { "answerText": "Tapaus Bruus ja muita kertomuksia" },
+          { "answerText": "Kuolema Niilillä", "correct":true },
+          { "answerText": "Taikatalvi" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir30.jpg",
+      "questionText": "Mikä kirjoista on Kaari Utrion kirjoittama?",
+      "answers": [
+          { "answerText": "Leijat Helsingin yllä" },
+          { "answerText": "Oppinut neiti", "correct":true },
+          { "answerText": "Nummisuutarit" }
+      ],
+			"caption": "Matti Järvinen - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir31.jpg",
+      "questionText": "Mikä kirjoista on Virpi-Hämeenanttilan kirjoittama?",
+      "answers": [
+          { "answerText": "Railo", "correct":true },
+          { "answerText": "Ikitie" },
+          { "answerText": "Onnellinen mies" }
+      ],
+			"caption": "Matti Järvinen - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir33.jpg",
+      "questionText": "Mikä kirjoista on Laila Hietaniemen kirjoittama?",
+      "answers": [
+          { "answerText": "Seitsemän veljestä" },
+          { "answerText": "Nummisuutarit" },
+          { "answerText": "Kallis kotimaa", "correct":true }
+      ],
+			"caption": "Spektri - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir34.jpg",
+      "questionText": "Mikä kirjoista on Kjell Westön kirjoittama?",
+      "answers": [
+          { "answerText": "Missä Kuljimme kerran", "correct":true },
+          { "answerText": "Seitsemän veljestä" },
+          { "answerText": "Taikatalvi" }
+      ],
+			"caption": "Soppakanuuna - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir36.jpg",
+      "questionText": "Mikä kirjoista on Matti Yrjänä Joensuun kirjoittama?",
+      "answers": [
+          { "answerText": "Rannalla" },
+          { "answerText": "Harjunpää ja ahdistelija", "correct":true },
+          { "answerText": "Uhrilehto" }
+      ],
+			"caption": "Soppakanuuna - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir37.jpg",
+      "questionText": "Mikä kirjoista on Anja Snellmanin kirjoittama?",
+      "answers": [
+          { "answerText": "Lemmikkikaupan tytöt", "correct": true },
+          { "answerText": "Ilkeät sisarpuolet" },
+          { "answerText": "Uhkapelimerkit" }
+      ],
+			"caption": "Anneli Salo - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir38.jpg",
+      "questionText": "Mikä kirjoista on Reino Lehväslaihon kirjoittama?",
+      "answers": [
+          { "answerText": "Raja" },
+          { "answerText": "Kosto" },
+          { "answerText": "Seesjärven sissit", "correct":true }
+      ],
+			"caption": "Anneli Salo - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir39.jpg",
+      "questionText": "Mikä kirjoista on Antti Hyryn kirjoittama?",
+      "answers": [
+          { "answerText": "Uuni", "correct":true },
+          { "answerText": "Taivaspaikka" },
+          { "answerText": "Tuulen varjo" }
+      ],
+			"caption": "Teemu Rajala - CC BY-SA 2.5"
+    },
+    {
+	    "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Stieg Larssonin kirjoittama?",
+      "answers": [
+          { "answerText": "Tyttö, joka leikki tulella", "correct":true },
+          { "answerText": "Hylynryöstäjä" },
+          { "answerText": "Silminnäkijä" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir43.jpg",
+      "questionText": "Mikä kirjoista on Kalle Päätalon kirjoittama?",
+      "answers": [
+          { "answerText": "Syksyksi kotiin" },
+          { "answerText": "Kallen inttivuosi" },
+          { "answerText": "Kannaksen lomajuna", "correct":true }
+      ],
+			"caption": "JNiemenmaa - CC BY-SA 2.5"
+    }
+  ]
+}

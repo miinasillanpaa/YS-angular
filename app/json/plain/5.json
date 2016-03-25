@@ -1,0 +1,157 @@
+{
+  "intro": "Miten eri sananlaskut jatkuvat?",
+  "questions": [
+    {
+      "image": "assets/img/sananlaskut/san1.jpg",
+      "questionText": "Parempi pyy pivossa",
+      "answers": [
+          { "answerText": "kuin naapurin padassa" },
+          { "answerText": "kuin puun latvassa" },
+          { "answerText": "kuin kymmenen oksalla", "correct":true }
+      ],
+			"caption": "wobogre (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san2.jpg",
+      "questionText": "Parempi myöhään",
+      "answers": [
+          { "answerText": "kuin ei milloinkaan", "correct":true },
+          { "answerText": "kuin liian aikaisin" },
+          { "answerText": "kuin aamulla varhain" }
+      ],
+			"caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san3.jpg",
+      "questionText": "Minkä lapsena oppii",
+      "answers": [
+          { "answerText": "sen vanhana unohtaa" },
+          { "answerText": "sen vanhana taitaa", "correct":true },
+          { "answerText": "sen vanhana opettaa" }
+      ],
+			"caption": "Simon (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san4.jpg",
+      "questionText": "Ei kukko",
+      "answers": [
+          { "answerText": "kiekumaan käy" },
+          { "answerText": "kävele" },
+          { "answerText": "käskien laula", "correct":true }
+      ],
+			"caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san5.jpg",
+      "questionText": "Odottaa",
+      "answers": [
+          { "answerText": "kuin hepo heinää" },
+          { "answerText": "kuin hepo kesää", "correct":true },
+          { "answerText": "kuin hepo kuumaa puuroa" }
+      ],
+			"caption": "jarmoluk (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san6.jpg",
+      "questionText": "Kiertää",
+      "answers": [
+          { "answerText": "kuin kissa kuumaa puuroa", "correct":true },
+          { "answerText": "kuin koira kopissa" },
+          { "answerText": "kuin kissa kartanolla" }
+      ],
+			"caption": "MartinStr (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san7.jpg",
+      "questionText": "Hyvä antaa vähästäänkin",
+      "answers": [
+          { "answerText": "paha ei paljon piittaa" },
+          { "answerText": "paha päälle sylkee" },
+          { "answerText": "paha ei paljostakaan", "correct":true }
+      ],
+			"caption": "Nhelia (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san8.jpg",
+      "questionText": "Seinilläkin",
+      "answers": [
+          { "answerText": "korvat kuulee" },
+          { "answerText": "on silmät päässä" },
+          { "answerText": "on korvat", "correct":true }
+      ],
+			"caption": "moorpheus (Public domain)"
+    },
+    {
+
+      "image": "assets/img/sananlaskut/san9.jpg",
+      "questionText": "Alku aina hankalaa",
+      "answers": [
+          { "answerText": "lopussa kiitos seisoo", "correct":true },
+          { "answerText": "loppu vielä hankalampaa" },
+          { "answerText": "kaikesta kuitenkin selvitään" }
+      ],
+			"caption": "cocoparisienne (Public domain)"
+  },
+  {
+      "image": "assets/img/sananlaskut/san1.jpg",
+      "questionText": "Mikä laulaen tulee",
+      "answers": [
+          { "answerText": "se helposti tulee" },
+          { "answerText": "se viheltäen menee", "correct":true },
+          { "answerText": "on pian kulutettu" }
+      ],
+			"caption": "wobogre (Public domain)"
+    },
+    {
+
+      "image": "assets/img/sananlaskut/san2.jpg",
+      "questionText": "Parempi on katsoa",
+      "answers": [
+          { "answerText": "kuin katua", "correct":true },
+          { "answerText": "kuin kaatua" },
+          { "answerText": "ja kuunnella" }
+      ],
+			"caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san3.jpg",
+      "questionText": "Kel\" onni on",
+      "answers": [
+          { "answerText": "sen kaikille kertokoon" },
+          { "answerText": "sen sydän riemuitsee" },
+          { "answerText": "se onnen kätkeköön", "correct":true }
+      ],
+			"caption": "Simon (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san4.jpg",
+      "questionText": "Ei niin pahaa",
+      "answers": [
+          { "answerText": "ettei syödä voisi" },
+          { "answerText": "ettei jotain hyvääkin", "correct":true },
+          { "answerText": "kuin luulisi" }
+      ],
+			"caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san5.jpg",
+      "questionText": "Sitä kuusta kuuleminen",
+      "answers": [
+          { "answerText": "jonka juurella asunto", "correct":true },
+          { "answerText": "jonka oksia sahaa" },
+          { "answerText": "jonka jouluna koristelee" }
+      ],
+			"caption": "jarmoluk (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san6.jpg",
+      "questionText": "Jos ei nyt",
+      "answers": [
+          { "answerText": "niin milloin?" },
+          { "answerText": "niin ainakin ensi vuonna" },
+          { "answerText": "niin ei milloinkaan", "correct":true }
+      ],
+			"caption": "MartinStr (Public domain)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "intro": "Yhdistä oikea kirja kirjailijaan.",
+  "questions": [
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Mika Waltarin kirjoittama?",
+      "answers": [
+          { "answerText": "Sinuhe Egyptiläinen", "correct":true },
+          { "answerText": "Nummisuutarit" },
+          { "answerText": "Ihmisen osa" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Väinö Linnan kirjoittama?",
+      "answers": [
+          { "answerText": "Muumipappa ja meri" },
+          { "answerText": "Tuntematon sotilas", "correct":true },
+          { "answerText": "Seitsemän Veljestä" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Aleksis Kiven kirjoittama?",
+      "answers": [
+          { "answerText": "Nummisuutarit", "correct":true  },
+          { "answerText": "Taikatalvi" },
+          { "answerText": "Tuntematon sotilas" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Aleksis Kiven kirjoittama?",
+      "answers": [
+          { "answerText": "Jumalan sana" },
+          { "answerText": "Ihmisen osa" },
+          { "answerText": "Kihlaus", "correct":true }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir10.jpg",
+      "questionText": "Mikä kirjoista on Veikko Huovisen kirjoittama?",
+      "answers": [
+          { "answerText": "Punainen Lanka"  },
+          { "answerText": "Havukka-ahon ajattelija", "correct":true },
+          { "answerText": "Kauppa-Lopo" }
+      ],
+			"caption": "Urpo Lankinen - CC BY 3.0"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir10.jpg",
+      "questionText": "Mikä kirjoista on Veikko Huovisen kirjoittama?",
+      "answers": [
+          { "answerText": "Lampaan syöjät", "correct":true  },
+          { "answerText": "Komisario Palmu" },
+          { "answerText": "Nummisuutarit" }
+      ],
+			"caption": "Urpo Lankinen - CC BY 3.0"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir10.jpg",
+      "questionText": "Mikä kirjoista on Veikko Huovisen kirjoittama?",
+      "answers": [
+          { "answerText": "Konsta Pylkkänen etsii kortteeria", "correct":true  },
+          { "answerText": "Papin Rouva" },
+          { "answerText": "Seitsemän veljestä" }
+      ],
+			"caption": "Urpo Lankinen - CC BY 3.0"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir-default.jpg",
+      "questionText": "Mikä kirjoista on Mika Waltarin kirjoittama?",
+      "answers": [
+          { "answerText": "Nuori Johannes", "correct":true  },
+          { "answerText": "Seitsemän veljestä" },
+          { "answerText": "Muumipappa ja meri" }
+      ],
+			"caption": "Antique books - Peter Häger (Public domain)"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir18.jpg",
+      "questionText": "Mikä kirjoista on Arto Paasilinnan kirjoittama?",
+      "answers": [
+          { "answerText": "Taikatalvi" },
+          { "answerText": "Veitikka" },
+          { "answerText": "Onnellinen mies", "correct":true }
+      ],
+			"caption": "BFF - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir18.jpg",
+      "questionText": "Mikä kirjoista on Arto Paasilinnan kirjoittama?",
+      "answers": [
+          { "answerText": "Stalinin lehmät" },
+          { "answerText": "Jäniksen vuosi", "correct":true },
+          { "answerText": "Nummisuutarit" }
+      ],
+			"caption": "BFF - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir20.jpg",
+      "questionText": "Mikä kirjoista on Sofi Oksasen kirjoittama?",
+      "answers": [
+          { "answerText": "Puhdistus", "correct":true },
+          { "answerText": "Hurskas kurjuus" },
+          { "answerText": "Onnellinen mies" }
+      ],
+			"caption": "Teemu Rajala - CC BY 3.0"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir21.jpg",
+      "questionText": "Mikä kirjoista on Reijo Mäen kirjoittama?",
+      "answers": [
+          { "answerText": "Sheriffi", "correct":true },
+          { "answerText": "Tuomiopäivän aurinko nousee" },
+          { "answerText": "Taikatalvi" }
+      ],
+			"caption": "Matti Järvinen - CC BY-SA 2.5"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir23.jpg",
+      "questionText": "Mikä kirjoista on Henning Mankelin kijoittama?",
+      "answers": [
+          { "answerText": "Maailman paras kylä" },
+          { "answerText": "Likainen enkeli", "correct":true },
+          { "answerText": "Seitsemän päivää" }
+      ],
+			"caption": "David Shankbone - CC BY 3.0"
+    },
+    {
+      "image": "assets/img/kirjailijat/kir24.jpg",
+      "questionText": "Mikä kirjoista on Jari Tervon kirjoittama?",
+      "answers": [
+          { "answerText": "Layla", "correct":true },
+          { "answerText": "Hurkas kurjuus" },
+          { "answerText": "Nummisuutarit" }
+      ],
+			"caption": "Soppakanuuna - CC BY-SA 2.5"
+    }
+  ]
+}

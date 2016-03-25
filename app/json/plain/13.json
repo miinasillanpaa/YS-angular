@@ -1,0 +1,110 @@
+{
+  "intro": "Valitse oikea vaihtoehto.",
+  "questions": [
+    {
+      "questionText": "Kuka europarlamentaarikkomme on entinen huippu-urheilija?",
+      "answers": [
+        { "answerText": "Sirpa Pietikäinen" },
+        { "answerText": "Nils Torvalds" },
+        { "answerText": "Sari Essayah", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Minä vuonna Teija Sopanen valittiin Suomen Neidoksi?",
+      "answers": [
+        { "answerText": "1951" },
+        { "answerText": "1952" },
+        { "answerText": "1953", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Mikä oli Tauno Palon alkuperäinen sukunimi?",
+      "answers": [
+        { "answerText": "Palonen" },
+        { "answerText": "Brännäs", "correct":true },
+        { "answerText": "Brand" }
+      ]
+    },
+    {
+      "questionText": "Kenen kuuluisan tiedemiehen ja kirjailijan syntymäki on Paikkarin torppa Sammatissa?",
+      "answers": [
+        { "answerText": "Elias Lönnrothin", "correct":true },
+        { "answerText": "Aleksis Kiven" },
+        { "answerText": "J.L. Runebergin" }
+      ]
+    },
+    {
+      "questionText": "Missä kaupungissa sijaitsee Sara Hildénin taidemuseo?",
+      "answers": [
+        { "answerText": "Turussa" },
+        { "answerText": "Tampereella", "correct":true },
+        { "answerText": "Helsingissä" }
+      ]
+    },
+    {
+      "questionText": "Minä vuonna Armi Kuusela valittiin Miss Universumiksi?",
+      "answers": [
+        { "answerText": "1951" },
+        { "answerText": "1952", "correct":true },
+        { "answerText": "1953" }
+      ]
+    },
+    {
+      "questionText": "Kuka kuuluisa kirjailija rakennutti kodikseen Turjanlinnan?",
+      "answers": [
+        { "answerText": "Väinö Linna" },
+        { "answerText": "Ilmari Kianto", "correct":true },
+        { "answerText": "Mika Waltari" }
+      ]
+    },
+    {
+      "questionText": "Missä kaupungissa sijaitsee Wäinö Aaltosen museo?",
+      "answers": [
+        { "answerText": "Turussa", "correct":true },
+        { "answerText": "Tampereella" },
+        { "answerText": "Helsingissä" }
+      ]
+    },
+    {
+      "questionText": "Missä sijaitsee Aleksis Kiven syntymäkoti?",
+      "answers": [
+        { "answerText": "Nurmijärvellä", "correct":true },
+        { "answerText": "Kuopiossa" },
+        { "answerText": "Porvoossa" }
+      ]
+    },
+    {
+
+      "questionText": "Missä kaupungissa sijaitsee Gunnar ja Marie-Louise Didrichsenin taidemuseo?",
+      "answers": [
+        { "answerText": "Tammisaaressa" },
+        { "answerText": "Porvoossa" },
+        { "answerText": "Helsingissä", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Mistä maakunnasta säveltäjä Toivo Kuula oli syntyisin?",
+      "answers": [
+        { "answerText": "Savosta" },
+        { "answerText": "Kymenlaaksosta" },
+        { "answerText": "Pohjanmaalta", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Minä vuonna elokuva Niskavuoren Heta esitettiin ensimmäisen kerran?",
+      "answers": [
+        { "answerText": "1942" },
+        { "answerText": "1952", "correct":true },
+        { "answerText": "1962" }
+      ]
+    },
+    {
+      "questionText": "Kuka oli Suomen ensimmäinen naisministeri?",
+      "answers": [
+        { "answerText": "Hella Wuolijoki" },
+        { "answerText": "Miina Sillanpää", "correct":true },
+        { "answerText": "Tyyne Leivo-Larsson" }
+      ]
+    }
+  ]
+}

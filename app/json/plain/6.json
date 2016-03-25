@@ -1,0 +1,155 @@
+{
+  "intro": "Miten eri sananlaskut jatkuvat?",
+  "questions": [
+    {
+      "image": "assets/img/sananlaskut/san7.jpg",
+      "questionText": "Niin metsä vastaa",
+      "answers": [
+          { "answerText": "kuin itse tahtoo" },
+          { "answerText": "kuin siltä kysytään" },
+          { "answerText": "kuin sinne huudetaan", "correct":true }
+      ],
+      "caption": "Nhelia (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san8.jpg",
+      "questionText": "Työmies on palkkansa",
+      "answers": [
+          { "answerText": "ansainnut", "correct":true },
+          { "answerText": "arvoinen" },
+          { "answerText": "mittainen" }
+      ],
+      "caption": "moorpheus (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san9.jpg",
+      "questionText": "Kenen leipää syöt",
+      "answers": [
+          { "answerText": "sen käskyjä kuuntelet" },
+          { "answerText": "sitä ruuasta kiität" },
+          { "answerText": "sen lauluja laulat", "correct":true }
+      ],
+      "caption": "cocoparisienne (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san1.jpg",
+      "questionText": "Onni yksillä",
+      "answers": [
+          { "answerText": "murhe muilla" },
+          { "answerText": "kesä kaikilla", "correct":true },
+          { "answerText": "taivaanranta kaikilla" }
+      ],
+      "caption": "wobogre (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san2.jpg",
+      "questionText": "Ei yö niin pitkä",
+      "answers": [
+          { "answerText": "kuin unettomasta tuntuu" },
+          { "answerText": "ettei aamu sarasta" },
+          { "answerText": "ettei päivä perässä", "correct":true }
+      ],
+      "caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san3.jpg",
+      "questionText": "Ei suuret sanat",
+      "answers": [
+          { "answerText": "suuta halkaise", "correct":true },
+          { "answerText": "suuta sulje" },
+          { "answerText": "vaan suuret teot" }
+      ],
+      "caption": "Simon (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san4.jpg",
+      "questionText": "Uni ja ruoka maittaa",
+      "answers": [
+          { "answerText": "mutta työ sitä haittaa" },
+          { "answerText": "mutta työ on kuin tervaa", "correct":true },
+          { "answerText": "mutta aika päälle painaa" }
+      ],
+      "caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san5.jpg",
+      "questionText": "Ahkeruus",
+      "answers": [
+          { "answerText": "aina palkitaan" },
+          { "answerText": "on onnen äiti" },
+          { "answerText": "kovankin onnen voittaa", "correct":true }
+      ],
+      "caption": "jarmoluk (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san6.jpg",
+      "questionText": "Ei vara",
+      "answers": [
+          { "answerText": "venettä kaada", "correct":true },
+          { "answerText": "pankkeja kaada" },
+          { "answerText": "ole vaaraksi" }
+      ],
+      "caption": "MartinStr (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san7.jpg",
+      "questionText": "Hätä",
+      "answers": [
+          { "answerText": "lukee lakia" },
+          { "answerText": "keinot keksii", "correct":true },
+          { "answerText": "keinot karkottaa" }
+      ],
+      "caption": "Nhelia (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san8.jpg",
+      "questionText": "Suo siellä",
+      "answers": [
+          { "answerText": "vettä täällä" },
+          { "answerText": "kangasmetsä täällä" },
+          { "answerText": "vetelä täällä", "correct":true }
+      ],
+      "caption": "moorpheus (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san9.jpg",
+      "questionText": "Jos haluat rauhaa",
+      "answers": [
+          { "answerText": "valmistaudu sotaan", "correct":true },
+          { "answerText": "rakenna sopu" },
+          { "answerText": "älä jännitä joustasi" }
+      ],
+      "caption": "cocoparisienne (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san1.jpg",
+      "questionText": "Myöhäistä on tuoda vettä",
+      "answers": [
+          { "answerText": "kun jano on sammunut" },
+          { "answerText": "kun talo on palanut", "correct":true },
+          { "answerText": "kun kiuas on kylmennyt" }
+      ],
+      "caption": "wobogre (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san2.jpg",
+      "questionText": "Seinilläkin on",
+      "answers": [
+          { "answerText": "kovaääniset" },
+          { "answerText": "kaiuttimet" },
+          { "answerText": "korvat", "correct":true }
+      ],
+      "caption": "werner22brigitte (Public domain)"
+    },
+    {
+      "image": "assets/img/sananlaskut/san3.jpg",
+      "questionText": "Kaikki tiet vievät",
+      "answers": [
+          { "answerText": "Roomaan", "correct":true },
+          { "answerText": "perille" },
+          { "answerText": "sinne minne jalkasi osoittavat" }
+      ],
+      "caption": "Simon (Public domain)"
+    }
+  ]
+}

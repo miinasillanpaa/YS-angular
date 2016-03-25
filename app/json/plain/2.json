@@ -1,0 +1,170 @@
+{
+  "intro": "Lehtivisailu: missä kaupungissa kukin lehti julkaistaan?",
+  "questions": [
+    {
+      "questionText": "Missä kaupungissa Aamulehti julkaistaan?",
+      "image": "assets/img/lehtikuvat/andrys.jpg",
+      "answers": [
+          { "answerText": "Pori" },
+          { "answerText": "Kouvola" },
+          { "answerText": "Tampere", "correct": true },
+          { "answerText": "Jyväskylä" }
+      ],
+			"caption": "Andrys (Public domain)"
+    },
+    {
+    "questionText": "Missä kaupungissa Kainuun Sanomat julkaistaan?",
+    "image": "assets/img/lehtikuvat/newspapers.jpg",
+    "answers": [
+        { "answerText": "Rovaniemi" },
+        { "answerText": "Oulu" },
+        { "answerText": "Kouvola"},
+        { "answerText": "Kajaani", "correct": true }
+    ],
+		"caption": "stevepb (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa julkaistaan Lapin Kansa?",
+    "image": "assets/img/lehtikuvat/old-newspaper.jpg",
+    "answers": [
+        { "answerText": "Rovaniemi", "correct":true },
+        { "answerText": "Oulu" },
+        { "answerText": "Kuusamo" },
+        { "answerText": "Kajaani" }
+    ],
+		"caption": "Old newspaper - Chris_pluta (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa julkaistaan Koillismaa?",
+    "image": "assets/img/lehtikuvat/andrys.jpg",
+    "answers": [
+        { "answerText": "Rovaniemi" },
+        { "answerText": "Oulu" },
+        { "answerText": "Kuusamo" , "correct":true },
+        { "answerText": "Joensuu" }
+    ],
+		"caption": "Andrys (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa Hufvudstadsbladet julkaistaan?",
+    "image": "assets/img/lehtikuvat/newspapers.jpg",
+    "answers": [
+        { "answerText": "Oulu" },
+        { "answerText": "Helsinki", "correct": true },
+        { "answerText": "Jyväskylä" },
+        { "answerText": "Porvoo" }
+    ],
+		"caption": "stevepb (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa Borgåbladet julkaistaan?",
+    "image": "assets/img/lehtikuvat/old-newspaper.jpg",
+    "answers": [
+        { "answerText": "Tampere" },
+        { "answerText": "Helsinki" },
+        { "answerText": "Turku"},
+        { "answerText": "Porvoo", "correct": true }
+    ],
+		"caption": "Old newspaper - Chris_pluta (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa Kaleva julkaistaan?",
+    "image": "assets/img/lehtikuvat/andrys.jpg",
+    "answers": [
+        { "answerText": "Rovaniemi" },
+        { "answerText": "Oulu", "correct": true },
+        { "answerText": "Kouvola"},
+        { "answerText": "Jyväskylä" }
+    ],
+		"caption": "Andrys (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa Keskisuomalainen julkaistaan?",
+    "image": "assets/img/lehtikuvat/newspapers.jpg",
+    "answers": [
+        { "answerText": "Pori" },
+        { "answerText": "Kuopio" },
+        { "answerText": "Jyväskylä", "correct": true },
+        { "answerText": "Kajaani" }
+    ],
+		"caption": "stevepb (Public domain)"
+  },
+  {
+    "questionText": "Missä kaupungissa julkaistaan Satakunnan Kansa?",
+    "image": "assets/img/lehtikuvat/old-newspaper.jpg",
+    "answers": [
+        { "answerText": "Porvoo" },
+        { "answerText": "Turku" },
+        { "answerText": "Joensuu"},
+        { "answerText": "Pori", "correct": true }
+    ],
+		"caption": "Old newspaper - Chris_pluta (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyy Svenska Dagbladet?",
+    "image": "assets/img/lehtikuvat/andrys.jpg",
+    "answers": [
+        { "answerText": "Suomi" },
+        { "answerText": "Ruotsi", "correct": true },
+        { "answerText": "Norja"},
+        { "answerText": "Tanska" }
+    ],
+		"caption": "Andrys (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyy Le Monde?",
+    "image": "assets/img/lehtikuvat/newspapers.jpg",
+    "answers": [
+        { "answerText": "Englanti" },
+        { "answerText": "Hollanti"},
+        { "answerText": "Ranska", "correct": true },
+        { "answerText": "Kanada" }
+    ],
+		"caption": "stevepb (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyy Dagens Nyheter?",
+    "image": "assets/img/lehtikuvat/old-newspaper.jpg",
+    "answers": [
+        { "answerText": "Islanti" },
+        { "answerText": "Ruotsi", "correct": true },
+        { "answerText": "Suomi"},
+        { "answerText": "Tanska" }
+    ],
+		"caption": "Old newspaper - Chris_pluta (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyy New York Times?",
+    "image": "assets/img/lehtikuvat/andrys.jpg",
+    "answers": [
+        { "answerText": "Yhdysvallat", "correct": true },
+        { "answerText": "Australia" },
+        { "answerText": "Uusi-Seelanti"},
+        { "answerText": "Englanti" }
+    ],
+		"caption": "Andrys (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyi Deutsche Allgemeine Zeitung",
+    "image": "assets/img/lehtikuvat/newspapers.jpg",
+    "answers": [
+        { "answerText": "Suomi" },
+        { "answerText": "Hollanti"},
+        { "answerText": "Ranska" },
+        { "answerText": "Saksa", "correct": true  }
+    ],
+		"caption": "stevepb (Public domain)"
+  },
+  {
+    "questionText": "Missä maassa ilmestyy Pravda?",
+    "image": "assets/img/lehtikuvat/old-newspaper.jpg",
+    "answers": [
+        { "answerText": "Venäjä", "correct": true },
+        { "answerText": "Tsekki" },
+        { "answerText": "Viro" },
+        { "answerText": "Valkovenäjä" }
+    ],
+		"caption": "Old newspaper - Chris_pluta (Public domain)"
+  }
+  ]
+}

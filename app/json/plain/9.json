@@ -1,0 +1,140 @@
+{
+  "intro": "Valitse oikea vaihtoehto.",
+  "questions": [
+    {
+      "questionText": "Montako kananmunaa on tiussa?",
+      "image": "assets/img/mat/mat1.jpg",
+      "answers": [
+        { "answerText": "10" },
+        { "answerText": "12" },
+        { "answerText": "20", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Montako desilitraa litraan mahtuu?",
+      "image": "assets/img/mat/mat2.jpg",
+      "answers": [
+        { "answerText": "5" },
+        { "answerText": "10", "correct":true },
+        { "answerText": "100" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta kilogrammaa on tonni?",
+      "image": "assets/img/mat/mat3.jpg",
+      "answers": [
+        { "answerText": "100" },
+        { "answerText": "1000", "correct":true },
+        { "answerText": "10000" }
+      ]
+    },
+    {
+      "questionText": "Montako veljestä Jukolassa oli?",
+      "image": "assets/img/mat/mat4.jpg",
+      "answers": [
+        { "answerText": "7", "correct":true },
+        { "answerText": "10" },
+        { "answerText": "12" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta grammaa on puoli kiloa?",
+      "image": "assets/img/mat/mat5.jpg",
+      "answers": [
+        { "answerText": "5" },
+        { "answerText": "500", "correct":true },
+        { "answerText": "5000" }
+      ]
+    },
+    {
+      "questionText": "Montako nollaa on miljoonassa?",
+      "image": "assets/img/mat/mat6.jpg",
+      "answers": [
+        { "answerText": "5" },
+        { "answerText": "7" },
+        { "answerText": "6", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta senttiä on eurossa?",
+      "image": "assets/img/mat/mat1.jpg",
+      "answers": [
+        { "answerText": "10" },
+        { "answerText": "100", "correct":true },
+        { "answerText": "1000" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta päivää on vuodessa?",
+      "image": "assets/img/mat/mat2.jpg",
+      "answers": [
+        { "answerText": "180" },
+        { "answerText": "270" },
+        { "answerText": "365", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta tähteä otavan-tähtikuviossa on?",
+      "image": "assets/img/mat/mat3.jpg",
+      "answers": [
+        { "answerText": "4" },
+        { "answerText": "7", "correct":true },
+        { "answerText": "8" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta senttimetriä puoli metriä on?",
+      "image": "assets/img/mat/mat4.jpg",
+      "answers": [
+        { "answerText": "50", "correct":true },
+        { "answerText": "250" },
+        { "answerText": "500" }
+      ]
+    },
+    {
+      "questionText": "Kumpi painaa enemmän; kilo nauloja vai kilo höyheniä?",
+      "image": "assets/img/mat/mat5.jpg",
+      "answers": [
+        { "answerText": "kilo nauloja" },
+        { "answerText": "kilo höyheniä" },
+        { "answerText": "yhtä paljon", "correct":true }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta desilitraa on puoli litraa?",
+      "image": "assets/img/mat/mat6.jpg",
+      "answers": [
+        { "answerText": "2,5" },
+        { "answerText": "5", "correct":true },
+        { "answerText": "50" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta minuuttia on tunnissa?",
+      "image": "assets/img/mat/mat1.jpg",
+      "answers": [
+        { "answerText": "50" },
+        { "answerText": "60", "correct":true },
+        { "answerText": "100" }
+      ]
+    },
+    {
+      "questionText": "Kuinka monta senttimetriä on metrissä?",
+      "image": "assets/img/mat/mat2.jpg",
+      "answers": [
+        { "answerText": "10" },
+        { "answerText": "100", "correct":true },
+        { "answerText": "1000" }
+      ]
+    },
+    {
+      "questionText": "Montako kylkiluuta ihmisellä on?",
+      "image": "assets/img/mat/mat3.jpg",
+      "answers": [
+        { "answerText": "24", "correct":true },
+        { "answerText": "28" },
+        { "answerText": "36" }
+      ]
+    }
+  ]
+}

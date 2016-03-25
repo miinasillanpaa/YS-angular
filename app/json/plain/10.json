@@ -1,0 +1,175 @@
+{
+  "intro": "Valitse oikea vaihtoehto.",
+  "questions": [
+    {
+  		"questionText": "Ranskan viimeinen keisari oli",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "Ludvig VI" },
+  			{ "answerText": "Napoleon III", "correct":true },
+  			{ "answerText": "Filip V" }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Taalainmaan lääni sijaitsee",
+  		"image": "assets/img/eurooppa1/ruotsi.jpg",
+  		"answers": [
+  			{ "answerText": "Norjassa" },
+  			{ "answerText": "Tanskassa" },
+  			{ "answerText": "Ruotsissa", "correct":true }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Ranskalainen laulaja Edith Piaf oli kuollessaan",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "47-vuotias", "correct":true },
+  			{ "answerText": "51-vuotias" },
+  			{ "answerText": "63-vuotias" }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Skotlannin suurin kaupunki on",
+  		"image": "assets/img/eurooppa1/quijote-albania-skotlanti.jpg",
+  		"answers": [
+  			{ "answerText": "Aberdeen" },
+  			{ "answerText": "Glasgow", "correct":true },
+  			{ "answerText": "Edinburgh" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Säveltäjä Arvo Pärt on kotoisin",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "Saksasta" },
+  			{ "answerText": "Virosta", "correct":true },
+  			{ "answerText": "Latviasta" }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Albanian pääkaupunki on",
+  		"image": "assets/img/eurooppa1/quijote-albania-skotlanti.jpg",
+  		"answers": [
+  			{ "answerText": "Tirana", "correct":true },
+  			{ "answerText": "Tripoli" },
+  			{ "answerText": "Lezhë" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Romaanin Don Quijote kirjoitti",
+  		"image": "assets/img/eurooppa1/quijote-albania-skotlanti.jpg",
+  		"answers": [
+  			{ "answerText": "Albert Dumas" },
+  			{ "answerText": "Miguel de Cervantes", "correct":true },
+  			{ "answerText": "Mary Shelley" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Viron suurin saari on",
+  		"image": "assets/img/eurooppa1/jarvi.jpg",
+  		"answers": [
+  			{ "answerText": "Saarenmaa", "correct":true },
+  			{ "answerText": "Hiidenmaa" },
+  			{ "answerText": "Naissaari" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Paavo Nurmi voitti",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "5 olympiakultaa" },
+  			{ "answerText": "12 olympiakultaa" },
+  			{ "answerText": "9 olympiakultaa", "correct":true }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Monacon hallitsijasuvun nimi on",
+  		"image": "assets/img/eurooppa1/ranska-pariisi-monaco.jpg",
+  		"answers": [
+  			{ "answerText": "Bernadotte" },
+  			{ "answerText": "Grimaldi", "correct":true },
+  			{ "answerText": "Sforza" }
+  		],
+  		"caption": "Sari laitinen"
+  	},
+  	{
+  		"questionText": "Kustaa Vaasa hallitsi Ruotsia",
+  		"image": "assets/img/eurooppa1/quijote-albania-skotlanti.jpg",
+  		"answers": [
+  			{ "answerText": "37 vuotta", "correct":true },
+  			{ "answerText": "40 vuotta" },
+  			{ "answerText": "55 vuotta" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Drottnigholmin linna sijaitsee",
+  		"image": "assets/img/eurooppa1/ruotsi.jpg",
+  		"answers": [
+  			{ "answerText": "Tanskassa" },
+  			{ "answerText": "Norjassa" },
+  			{ "answerText": "Ruotsissa", "correct":true }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Laulaja John Lennon kuoli vuonna",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "1978" },
+  			{ "answerText": "1980", "correct":true },
+  			{ "answerText": "1992" }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Taiteilija, joka maalasi Guarnica -nimisen taulun on",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "Max Weber" },
+  			{ "answerText": "Pablo Picasso", "correct":true },
+  			{ "answerText": "Joan Miró" }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Pariisin Disneyland avattiin vuonna",
+  		"image": "assets/img/eurooppa1/ranska-pariisi-monaco.jpg",
+  		"answers": [
+  			{ "answerText": "1952" },
+  			{ "answerText": "1972" },
+  			{ "answerText": "1992", "correct":true }
+  		],
+  		"caption": "Sari Laitinen"
+  	},
+  	{
+  		"questionText": "Adolf Hitler oli kuollessaan",
+  		"image": "assets/img/eurooppa1/hitler.jpg",
+  		"answers": [
+  			{ "answerText": "46-vuotias" },
+  			{ "answerText": "56-vuotias", "correct":true },
+  			{ "answerText": "66-vuotias" }
+  		],
+  		"caption": "Helena Launiainen"
+  	},
+  	{
+  		"questionText": "Darwin julkaisi teoksensa \"Lajien synty\" vuonna",
+  		"image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+  		"answers": [
+  			{ "answerText": "1679" },
+  			{ "answerText": "1759" },
+  			{ "answerText": "1859", "correct":true }
+  		],
+  		"caption": "Sari Laitinen"
+  	}
+  ]
+}

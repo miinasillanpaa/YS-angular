@@ -1,0 +1,204 @@
+{
+  "intro": "Mitä seuraavat sivistyssanat tarkoittavat?",
+  "questions": [
+    {
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Degeneraatio",
+  		"answers": [
+  			{ "answerText": "sukupolvi" },
+  			{ "answerText": "rappeutuminen", "correct":true },
+  			{ "answerText": "rahan arvon lasku" }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Desibeli",
+  		"answers": [
+  			{ "answerText": "muotoilu" },
+  			{ "answerText": "kymmenys" },
+  			{ "answerText": "äänen voimakkuuden yksikkö", "correct":true }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Hemofilia",
+  		"answers": [
+  			{ "answerText": "veren punainen väriaine" },
+  			{ "answerText": "perinnöllinen verenvuototauti", "correct":true },
+  			{ "answerText": "verisolu" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Gobeliini",
+  		"answers": [
+  			{ "answerText": "suhteettoman suuri henkilö" },
+  			{ "answerText": "rypälesokeri" },
+  			{ "answerText": "kuviollinen seinävaate", "correct":true }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Gastronomi",
+  		"answers": [
+  			{ "answerText": "herkkujen tuntija", "correct":true },
+  			{ "answerText": "vatsalääkäri" },
+  			{ "answerText": "paksusuoli" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Sabotaasi",
+  		"answers": [
+  			{ "answerText": "tuhopoltto" },
+  			{ "answerText": "tahallinen ilkivalta", "correct":true },
+  			{ "answerText": "juhlapyhä" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Radiologi",
+  		"answers": [
+  			{ "answerText": "radioteknikko" },
+  			{ "answerText": "säteilymittari" },
+  			{ "answerText": "sädehoitoon erikoistunut lääkäri", "correct":true }
+  		]
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Pittoreski",
+  		"answers": [
+  			{ "answerText": "raamatullinen" },
+  			{ "answerText": "maalauksellinen", "correct":true },
+  			{ "answerText": "ympäri pyörähdys" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Fiktiivinen",
+  		"answers": [
+  			{ "answerText": "kuvitteellinen", "correct":true },
+  			{ "answerText": "jännitysromaani" },
+  			{ "answerText": "postimerkkien keräilijä" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Optimaalinen",
+  		"answers": [
+  			{ "answerText": "vastakkaisuus" },
+  			{ "answerText": "silmää hivelevä" },
+  			{ "answerText": "paras mahdollinen", "correct":true }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Evoluutio",
+  		"answers": [
+  			{ "answerText": "arviointi" },
+  			{ "answerText": "kehitys", "correct":true },
+  			{ "answerText": "väestön poissiirtäminen" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Modifikaatio",
+  		"answers": [
+  			{ "answerText": "muunnos", "correct":true },
+  			{ "answerText": "muotiasiantuntemus" },
+  			{ "answerText": "naisten hattujen valmistus" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Sensuaalinen",
+  		"answers": [
+  			{ "answerText": "herkkätuntoinen" },
+  			{ "answerText": "keskeinen" },
+  			{ "answerText": "aistillinen", "correct":true }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Laviini",
+  		"answers": [
+  			{ "answerText": "tykin alusta" },
+  			{ "answerText": "lumivyöry", "correct":true },
+  			{ "answerText": "pesuallas" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Kupletti",
+  		"answers": [
+  			{ "answerText": "humoristinen laulu", "correct":true },
+  			{ "answerText": "lauluyhtye" },
+  			{ "answerText": "soitinyhtye" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Limnologi",
+  		"answers": [
+  			{ "answerText": "rajoitin" },
+  			{ "answerText": "virvoitusjuoman valmistaja" },
+  			{ "answerText": "järvitutkija", "correct":true }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Pizzicato",
+  		"answers": [
+  			{ "answerText": "pizzaravintola" },
+  			{ "answerText": "sormilla näppäillen", "correct":true },
+  			{ "answerText": "Italialainen pitsi" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv3.jpg",
+  		"questionText": "Sifoni",
+  		"answers": [
+  			{ "answerText": "ohut silkkikangas" },
+  			{ "answerText": "paineella toimiva tarjoilupullo", "correct":true },
+  			{ "answerText": "merkkiääni" }
+  		],
+  		"caption": "224576 (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv1.jpg",
+  		"questionText": "Tautologia",
+  		"answers": [
+  			{ "answerText": "tautien tutkiminen" },
+  			{ "answerText": "ihon maalaaminen" },
+  			{ "answerText": "sanan tai asian toistaminen", "correct":true }
+  		],
+  		"caption": "Willabee (Public domain)"
+  	},
+  	{
+  		"image": "assets/img/sivistyssanat/siv2.jpg",
+  		"questionText": "Uniikki",
+  		"answers": [
+  			{ "answerText": "unitautinen" },
+  			{ "answerText": "ainutlaatuinen", "correct":true },
+  			{ "answerText": "valtioliitto" }
+  		],
+  		"caption": "schneich (Public domain)"
+  	}
+  ]
+}

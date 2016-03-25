@@ -1,0 +1,117 @@
+{
+  "intro": "Valitse oikea vaihtoehto.",
+  "questions": [
+    {
+  		"questionText": "Milloin on seuraava karkausvuosi?",
+  		"answers": [
+  			{ "answerText": "2015" },
+  			{ "answerText": "2016", "correct":true },
+  			{ "answerText": "2017" }
+  		]
+  	},
+  	{
+  		"questionText": "Kenen nimipäivä on uudenvuodenpäivänä?",
+  		"answers": [
+  			{ "answerText": "Aatamin" },
+  			{ "answerText": "Eevan" },
+  			{ "answerText": "Ei kenenkään", "correct":true }
+  		]
+  	},
+  	{
+  		"questionText": "Mihin kaupunkiin rakennettiin Suomen ensimmäinen jäähalli?",
+  		"answers": [
+  			{ "answerText": "Turkuun" },
+  			{ "answerText": "Helsinkiin" },
+  			{ "answerText": "Tampereelle", "correct":true }
+  		]
+  	},
+  	{
+  		"questionText": "Mikä on Pekka Korven urheilulaji?",
+  		"answers": [
+  			{ "answerText": "Jääkiekko" },
+  			{ "answerText": "Raviurheilu", "correct":true },
+  			{ "answerText": "Miekkailu" }
+  		]
+  	},
+  	{
+  		"questionText": "Missä maakunnassa on Lieksan kaupunki?",
+  		"answers": [
+  			{ "answerText": "Savossa" },
+  			{ "answerText": "Pohjois-Karjalassa", "correct":true },
+  			{ "answerText": "Lapissa" }
+  		]
+  	},
+  	{
+  		"questionText": "Kenen presidenttimme koti sijaitsi Luumäen Kotkanniemessä?",
+  		"answers": [
+  			{ "answerText": "P.E. Svinhufvudin", "correct":true },
+  			{ "answerText": "Kyösti Kallion" },
+  			{ "answerText": "Urho Kekkosen" }
+  		]
+  	},
+  	{
+  		"questionText": "Kenen suomalaisen jääkiekkoiijan lempinimi on Hexi?",
+  		"answers": [
+  			{ "answerText": "Teemu Selänteen" },
+  			{ "answerText": "Heikki Riihirannan", "correct":true },
+  			{ "answerText": "Veli-Pekka Ketolan" }
+  		]
+  	},
+  	{
+  		"questionText": "Missä suuressa järvessämme on Tehinselkä?",
+  		"answers": [
+  			{ "answerText": "Inarijärvi" },
+  			{ "answerText": "Päijänne", "correct":true },
+  			{ "answerText": "Saimaa" }
+  		]
+  	},
+  	{
+  		"questionText": "Mitä roolihahmoa Matti Ranin esitti elokuvassa Tuntematon sotilas?",
+  		"answers": [
+  			{ "answerText": "Vänrikki Kariluotoa", "correct":true },
+  			{ "answerText": "Luutnantti Lammia" },
+  			{ "answerText": "Alikersantti Rokkaa" }
+  		]
+  	},
+  	{
+  		"questionText": "Minkä Suomen kaupungin ruotsinkielinen nimi on Kaskö?",
+  		"answers": [
+  			{ "answerText": "Kajaanin" },
+  			{ "answerText": "Kaskisen", "correct":true },
+  			{ "answerText": "Kotkan" }
+  		]
+  	},
+  	{
+  		"questionText": "Kun kello on Helsingissä 12:00, niin mitä se on Tukholmassa?",
+  		"answers": [
+  			{ "answerText": "10:00" },
+  			{ "answerText": "11:00", "correct":true },
+  			{ "answerText": "12:00" }
+  		]
+  	},
+  	{
+  		"questionText": "Missä kaupungissa teatterineuvos Eila Roine syntyi?",
+  		"answers": [
+  			{ "answerText": "Turussa", "correct":true },
+  			{ "answerText": "Helsingissä" },
+  			{ "answerText": "Tampereella" }
+  		]
+  	},
+  	{
+  		"questionText": "Missä kaupungissa juna pysähtyy Viinijärven rautatieasemalla?",
+  		"answers": [
+  			{ "answerText": "Kajaanissa" },
+  			{ "answerText": "Suomussalmella" },
+  			{ "answerText": "Outokummussa", "correct":true }
+  		]
+  	},
+  	{
+  		"questionText": "Missä maakunnassa sijaitsee Rääkkylän kunta?",
+  		"answers": [
+  			{ "answerText": "Lapissa" },
+  			{ "answerText": "Pohjois-Karjalassa", "correct":true },
+  			{ "answerText": "Savossa" }
+  		]
+  	}
+  ]
+}

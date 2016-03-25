@@ -1,0 +1,175 @@
+{
+  "intro": "Valitse oikea vaihtoehto.",
+  "questions": [
+    {
+      "questionText": "Vuoden 1984 talviolympialaiset pidettiin",
+      "image": "assets/img/eurooppa2/talviolympialaiset.jpg",
+      "answers": [
+        { "answerText": "Grenoblessa" },
+        { "answerText": "Sarajevossa", "correct":true },
+        { "answerText": "Salt Lake Cityssä" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Tonavan pituus on",
+      "image": "assets/img/eurooppa2/aloitus-tonava.jpg",
+      "answers": [
+        { "answerText": "2450km" },
+        { "answerText": "2650km" },
+        { "answerText": "2850km", "correct":true }
+      ],
+      "caption": "Helena Launianen"
+    },
+    {
+      "questionText": "Venäjän viimeinen tsaari oli",
+      "image": "assets/img/eurooppa2/venaja.jpg",
+      "answers": [
+        { "answerText": "Nikolai II", "correct":true },
+        { "answerText": "Iivana IV" },
+        { "answerText": "Pietari Suuri" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Pieni Merenneito -patsas sijaitsee",
+      "image": "assets/img/eurooppa2/tanska.jpg",
+      "answers": [
+        { "answerText": "Tukholmassa" },
+        { "answerText": "Oslossa" },
+        { "answerText": "Kööpenhaminassa", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Wolfgang Amadeus Mozart syntyi vuonna",
+      "image": "assets/img/eurooppa2/mozart.jpg",
+      "answers": [
+        { "answerText": "1556" },
+        { "answerText": "1656" },
+        { "answerText": "1756", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Englannin kuningatar Elizabeth I kruunattiin kuningattareksi",
+      "image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+      "answers": [
+        { "answerText": "22-vuotiaana" },
+        { "answerText": "25-vuotiaana", "correct":true },
+        { "answerText": "28-vuotiaana" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Nobelin rauhanpalkinnon vuonna 2008 voitti",
+      "image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+      "answers": [
+        { "answerText": "Lech Walesa" },
+        { "answerText": "Martti Ahtisaari", "correct":true },
+        { "answerText": "Desmond Tutu" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "James Bondin hahmon loi kirjailija",
+      "image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+      "answers": [
+        { "answerText": "James Bond" },
+        { "answerText": "Agatha Christie" },
+        { "answerText": "Ian Fleming", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Suomessa on järviä",
+      "image": "assets/img/eurooppa2/suomi.jpg",
+      "answers": [
+        { "answerText": "n. 98 000" },
+        { "answerText": "n. 158 000" },
+        { "answerText": "n. 188 000", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Pisan kaltevan tornin korkeus on",
+      "image": "assets/img/eurooppa2/perus.jpg",
+      "answers": [
+        { "answerText": "46 metriä" },
+        { "answerText": "56 metriä", "correct":true },
+        { "answerText": "66 metriä" }
+      ],
+      "caption": "Helena Launiainen"
+    },
+    {
+      "questionText": "Leonardo da Vinci syntyi",
+      "image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+      "answers": [
+        { "answerText": "1452", "correct":true },
+        { "answerText": "1552" },
+        { "answerText": "1652" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Eiffel-torni rakennettiin vuonna",
+      "image": "assets/img/eurooppa1/ranska-pariisi-monaco.jpg",
+      "answers": [
+        { "answerText": "1889", "correct":true },
+        { "answerText": "1909" },
+        { "answerText": "1929" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Suomen sisällissota sodittiin vuonna",
+      "image": "assets/img/eurooppa2/sisallissota-islanti.jpg",
+      "answers": [
+        { "answerText": "1808" },
+        { "answerText": "1918", "correct":true },
+        { "answerText": "1944" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Sputnik I laukaistiin vuonna",
+      "image": "assets/img/eurooppa2/perus.jpg",
+      "answers": [
+        { "answerText": "1947" },
+        { "answerText": "1957", "correct":true },
+        { "answerText": "1967" }
+      ],
+      "caption": "Helena Launiainen"
+    },
+    {
+      "questionText": "Kesäolympialaiset pidettiin Barcelonassa vuonna",
+      "image": "assets/img/eurooppa1/ranska-pariisi-monaco.jpg",
+      "answers": [
+        { "answerText": "1984" },
+        { "answerText": "1988" },
+        { "answerText": "1992", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Taidemaalari Edvard Munch oli kotoisin",
+      "image": "assets/img/eurooppa1/aloitus-piaf-lennon-nurmi.jpg",
+      "answers": [
+        { "answerText": "Norjasta", "correct":true },
+        { "answerText": "Virosta" },
+        { "answerText": "Saksasta" }
+      ],
+      "caption": "Sari Laitinen"
+    },
+    {
+      "questionText": "Euroopassa ensimmäisenä naisen valtion johtajaksi valinnut maa oli",
+      "image": "assets/img/eurooppa2/sisallissota-islanti.jpg",
+      "answers": [
+        { "answerText": "Saksa" },
+        { "answerText": "Viro" },
+        { "answerText": "Islanti", "correct":true }
+      ],
+      "caption": "Sari Laitinen"
+    }
+  ]
+}

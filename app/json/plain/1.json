@@ -1,0 +1,83 @@
+{
+  "intro": "Yhdistä vastakohdat toisiinsa.",
+  "questions": [
+    {
+      "image": "assets/img/vastakohdat.jpg",
+      "questionText": "Mikä on vastakohta: MATALA",
+      "answers": [
+          { "answerText": "laaja" },
+          { "answerText": "pieni" },
+          { "answerText": "korkea", "correct": true },
+          { "answerText": "suuri" },
+          { "answerText": "avara" }
+       ]
+   },
+   {
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: PAINAVA",
+       "answers": [
+           { "answerText": "raskas" },
+           { "answerText": "kova" },
+           { "answerText": "rautainen" },
+           { "answerText": "kookas" },
+           { "answerText": "kevyt", "correct": true }
+       ]
+   },
+   {
+
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: ISO",
+       "answers": [
+           { "answerText": "kookas" },
+           { "answerText": "painava" },
+           { "answerText": "pieni", "correct": true },
+           { "answerText": "mahtava" }
+       ]
+   },
+   {
+
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: TUMMA",
+       "answers": [
+           { "answerText": "musta" },
+           { "answerText": "synkkä" },
+           { "answerText": "iloinen" },
+           { "answerText": "vaalea", "correct": true },
+           { "answerText": "valkoinen" }
+       ]
+   },
+   {
+
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: KALLIS",
+       "answers": [
+           { "answerText": "arvokas" },
+           { "answerText": "iso" },
+           { "answerText": "pieni" },
+           { "answerText": "halpa", "correct": true }
+       ]
+   },
+   {
+
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: NOPEA",
+       "answers": [
+           { "answerText": "iloinen" },
+           { "answerText": "hidas", "correct": true },
+           { "answerText": "hätäinen" },
+           { "answerText": "vauhdikas" }
+       ]
+   },
+   {
+
+       "image": "assets/img/vastakohdat.jpg",
+       "questionText": "Mikä on vastakohta: HILPEÄ",
+       "answers": [
+           { "answerText": "hauska" },
+           { "answerText": "iloinen" },
+           { "answerText": "mukava" },
+           { "answerText": "synkkä", "correct": true }
+       ]
+   }
+  ]
+}
