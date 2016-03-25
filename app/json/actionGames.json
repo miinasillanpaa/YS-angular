@@ -1,1 +1,71 @@
-{}
+[{
+		"guid": 1,
+		"gameType": "audio",
+		"media": "assets/sound/voituotamuistia.mp3",
+		"gameIntro": "Kuulet kohta kappaleen. Laulun sanat näkyvät ruudulla. Laula mukana!",
+		"name": "Karaoke: Voi tuota muistia",
+		"image": "assets/img/pilvi.jpg",
+		"credits": "Toteutus ja suunnittelu: Sari Laitinen. Kappaleen sävellys ja sanoitus A. Tarkki, esittäjä Aarre Tarkki. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+	},
+	{
+		"guid": 2,
+		"gameType": "audio",
+		"media": "assets/sound/laulunmahti.mp3",
+		"gameIntro": "Kuulet kohta kappaleen. Laulun sanat näkyvät ruudulla. Laula mukana!",
+		"name": "Karaoke: Laulun mahti",
+		"image": "assets/img/grammari.jpg",
+		"credits": "Toteutus ja suunnittelu: Sari Laitinen. Sävellys ja sanoitus A. Tarkki, esittäjä Aarre Tarkki. Pianoa ja harmonikkaa soittaa Matti Kallio, lyömäsoittimia Pekka Nyman, viulua Heikki Kangasniemi, kitaroita ja mandoliinia Markku Perttilä. Taustalla laulavat Markku Perttilä, Sari Laitinen ja Tarja Merivirta."
+	},
+	{
+		"guid": 3,
+		"gameType": "audio",
+		"media": "assets/sound/yksilorentoutus.mp3",
+		"gameIntro": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Musiikkina on Marais’n Les Folies d´Espagne ja Tárregan Recuerdos de la Alhambra. Harjoitus kestää 7 ja puoli minuuttia.",
+		"name": "Yksilörentoutus",
+		"image": "assets/img/rentoutus/ren2.jpg",
+		"credits": "Ohjaus ja suunnittelu: Sari Laitinen. Soittajat: Kirsi Jokela: huilu, Laura Airola: viulu, Hannu Perttilä: oboe ja Markku Perttilä: klassinen kitara. Kuvitus: Marketta Leppänen."
+	},
+	{
+		"guid": 4,
+		"gameType": "audio",
+		"media": "assets/sound/parirentoutus.mp3",
+		"gameIntro": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Aloittakaa rentoutus istuutumalla tukevasti selkänojalliselle tuolille. Musiikkina on Tárregan Lágrima, Händelin Largo, Corellin Preludio ja Bachin Siciliano. Kesto 10 ja puoli minuuttia.",
+		"name": "Parirentoutus",
+		"image": "assets/img/rentoutus/ren3.jpg",
+		"credits": "Ohjaus ja suunnittelu: Sari Laitinen. Soittajat: Kirsi Jokela: huilu, Laura Airola: viulu, Hannu Perttilä: oboe ja Markku Perttilä: klassinen kitara. Kuvitus: Marketta Leppänen."
+  },
+	{
+		"guid": 5,
+		"gameType": "video",
+		"videoUrl": "0hE2RMqNFQo",
+		"gameIntro": "Jumppaa videon mukana!",
+		"name": "Jumppavideo valssin tahtiin",
+		"image": "assets/img/jumppa/valssicover.png ",
+		"credits": "Suunnittelu ja Toteutus: Sari Laitinen. Jumppaamassa Sirkka ja Tapio."
+	},
+	{
+		"guid": 6,
+		"gameType": "video",
+		"videoUrl": "vIZOskaYfLM",
+		"gameIntro": "Jumppaa videon mukana!",
+		"name": "Jumppavideo jenkan tahtiin",
+		"image": "assets/img/jumppa/jenkkacover.png",
+		"credits": "Suunnittelu ja Toteutus: Sari Laitinen. Jumppaamassa Sirkka ja Tapio."
+	},
+	{
+		"guid": 7,
+		"gameType": "images",
+		"gameIntro": "Harjoittele jumppaliikkeet rauhassa kuvien kanssa. Paina Seuraava-painiketta päästäksesi seuraavaan jumppaliikkeeseen.",
+		"name": "Jumppaliikkeet: valssi",
+		"image": "assets/img/jumppa/aamu/1.jpg",
+		"credits": "Suunnittelu ja Toteutus: Sari Laitinen. Jumppaamassa Keijo ja Inkeri."
+	},
+	{
+		"guid": 8,
+		"gameType": "images",
+		"gameIntro": "Harjoittele jumppaliikkeet rauhassa kuvien kanssa. Paina Seuraava-painiketta päästäksesi seuraavaan jumppaliikkeeseen.",
+		"name": "Jumppaliikkeet: jenkka",
+		"image": "assets/img/jumppa/jenkka/1-cover.jpg",
+		"credits": "Suunnittelu ja Toteutus: Sari Laitinen. Jumppaamassa Keijo ja Inkeri."
+	}
+]
