@@ -7,7 +7,8 @@ angular.module 'ysAngularApp'
     gameId = $routeParams.gameId
     correctAnswers = 0
     questions = null
-
+    
+    $scope.showModal = true
     $scope.questionsLength = null
     $scope.questionIndex = 0
     $scope.answerWas = null

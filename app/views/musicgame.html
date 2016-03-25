@@ -1,6 +1,6 @@
 <div class="dim" ng-show="showModal || endGameConfirm"></div>
 <div class="my-modal" ng-show="showModal">
-  <p>{{intro}}</p >
+  <p>{{intro}}</p>
   <button
     class="btn btn-primary btn-lg btn-block"
     ng-click="sound.play(); hideModal()">
@@ -79,7 +79,7 @@
     <div
       class="scores"
       ng-show="showScores">
-        <h1>Peli loppui</h1>
+        <h1>Harjoitus päättyi/h1>
         <div class="alert alert-info">
           <h3>{{successText}}</h3>
           <p>Sait oikeita vastauksia {{successRate | number:0}}%</p>
