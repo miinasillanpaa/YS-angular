@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+  		"questionText": " ",
+  		"options": {"changeAt": 11000}
+  	},
+  	{
+  		"questionText": "Albumin kuvat ain mielen saa lentoon menneiden vuosien muistojen luo.",
+  		"options": {"changeAt": 24000}
+  	},
+  	{
+  		"questionText": "Juhlien pyörteisiin iloiseen rentoon lauluksi muuttuvat muistoni nuo.",
+  		"options": {"changeAt": 35000}
+  	},
+  	{
+  		"questionText": "Laulun mahti näin virkistää, lämmittää, yhdistää",
+  		"options": {"changeAt": 46000}
+  	},
+  	{
+  		"questionText": "Voimia antaen kantaen, läpi päivämme jokaisen",
+  		"options": {"changeAt": 58000}
+  	},
+  	{
+  		"questionText": "Vauhdilla muuttuvat muodit ja aatteet nuorempi polvi ain omansa tuo",
+  		"options": {"changeAt": 70000}
+  	},
+  	{
+  		"questionText": "Tyylikkäät olivat tavat ja vaatteet, lauluksi muuttuvat muistoni nuo.",
+  		"options": {"changeAt": 82000}
+  	},
+  	{
+  		"questionText": "Laulun mahti näin virkistää, lämmittää, yhdistää",
+  		"options": {"changeAt": 93000}
+  	},
+  	{
+  		"questionText": "Voimia antaen kantaen, läpi päivämme jokaisen.",
+  		"options": {"changeAt": 105000}
+  	},
+  	{
+  		"questionText": "Tunteiden kirjoissa värejä riittää, nousuja, laskuja elämä suo.",
+  		"options": {"changeAt": 116000}
+  	},
+  	{
+  		"questionText": "Aika on lempeä, yhteen ne liittää, lauluksi muuttuvat muistoni nuo.",
+  		"options": {"changeAt": 128000}
+  	},
+  	{
+  		"questionText": "Laulun mahti näin virkistää, lämmittää, yhdistää",
+  		"options": {"changeAt": 139000}
+  	},
+  	{
+  		"questionText": "Voimia antaen kantaen, läpi päivämme jokaisen",
+  		"options": {}
+  	}
+  ]
+}

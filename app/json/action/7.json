@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+		"image": "assets/img/jumppa/aamu/2.jpg",
+		"questionText": "Heilauta oikeaa kättä eteen ja taakse."
+	},
+	{
+		"image": "assets/img/jumppa/aamu/3.jpg",
+		"questionText": "Heilauta vasenta kättä eteen ja taakse laajasti."
+	},
+	{
+		"image": "assets/img/jumppa/aamu/4.jpg",
+		"questionText": "Piirrä vaakakahdeksikkoa sivulta sivulle, isot silmukat. Harjoittele molemmin käsin."
+	},
+	{
+		"image": "assets/img/jumppa/aamu/5.jpg",
+		"questionText": "Heilauta jalkaa eteen ja taakse. Harjoittele molemmin jaloin."
+	},
+	{
+		"image": "assets/img/jumppa/aamu/6.jpg",
+		"questionText": "Piirrä oikealla ja vasemmalla jalalla laiskoja kahdeksikkoja."
+	},
+	{
+		"image": "assets/img/jumppa/aamu/1-dimen.jpg",
+		"questionText": "Tee molemmilla käsillä laajoja kahdeksikkoja."
+	}
+  ]
+}

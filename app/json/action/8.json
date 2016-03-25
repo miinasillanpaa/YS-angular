@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+  		"image": "assets/img/jumppa/jenkka/2.jpg",
+  		"questionText": "Nosta jalkoja jenkan tahtiin ylös ja alas."
+  	},
+  	{
+  		"image": "assets/img/jumppa/jenkka/3.jpg",
+  		"questionText": "Työnnä kantapäitä vuorotellen eteen ja taakse."
+  	},
+  	{
+  		"image": "assets/img/jumppa/jenkka/4.jpg",
+  		"questionText": "Hiihtoliike: Ylävartalo kiertyy ja sormetkin ojentuvat."
+  	},
+  	{
+  		"image": "assets/img/jumppa/jenkka/5.jpg",
+  		"questionText": "Taputa oikeaa reittä molemmin käsin 4 kertaa, taputa vasenta reittä molemmin käsin 4 kertaa, kierrä vartaloa."
+  	},
+  	{
+  		"image": "assets/img/jumppa/jenkka/6.jpg",
+  		"questionText": "Taputa oikealle kaksi kertaa, vasemmalle kaksi kertaa."
+  	},
+  	{
+  		"image": "assets/img/jumppa/jenkka/7.jpg",
+  		"questionText": "Ravistele käsiä sinne ja tänne, sivuille ja ylös, alas ja eteen."
+  	}
+  ]
+}
