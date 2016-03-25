@@ -1,1 +1,84 @@
-here be actiongames
+<div class="dim" ng-show="showModal || endGameConfirm"></div>
+<div class="my-modal" ng-show="showModal">
+  <p>{{game.gameIntro}}</p>
+  <button
+    ng-if="actionGameType == 'audio'"
+    class="btn btn-primary btn-lg btn-block"
+    ng-click="sound.play(); hideModal()">
+      Aloita!
+  </button>
+  <button
+    ng-if="actionGameType != 'audio'"
+    class="btn btn-primary btn-lg btn-block"
+    ng-click="hideModal()">
+      Aloita!
+  </button>
+</div>
+
+<div ng-show="endGameConfirm" class="end-game-confirm">
+  Haluatko varmasti lopettaa?
+  <br/>
+  <button class="btn btn-default" ng-click="resume()">Ei</button>
+  <button class="btn btn-primary" ng-click="quit()">Kyllä</button>
+</div>
+
+<div
+  ng-if="game.gameType == 'video'">
+    <div
+      ng-hide="gameEnded"
+      youtube-video
+      on-ready="onReady(event)"
+      width="{{player.width}}"
+      height="{{player.height}}"
+      on-api-change="onApiChange(event)"
+      on-state-change="onStateChange(event)"
+      on-playback-quality-change="onPlaybackQualityChange(event)"
+      on-controller-ready="onControllerReady(controller)"
+      video-id="{{player.videoId}}">
+    </div>
+</div>
+
+<div
+  ng-if="game.gameType == 'images'"
+  class="action-audio-backround"
+  style="background-image: url({{currentQuestion.image}})">
+
+    <p class="lyrics">
+      {{currentQuestion.questionText}}
+    </p>
+    <button
+      ng-hide="gameEnded"
+      class="btn btn-lg btn-primary action-images-next"
+      ng-click="setNextQuestion()">
+        Seuraava
+    </button>
+</div>
+
+<div
+  ng-if="game.gameType == 'audio'"
+  class="action-audio-backround"
+  style="background-image: url({{game.image}})">
+    <p class="lyrics">
+      {{currentQuestion.questionText}}
+    </p>
+</div>
+
+<div
+  class="action-game-ended"
+  ng-show="gameEnded">
+    <h1>Harjoitus päättyi</h1>
+    <div class="alert alert-info">
+      <h3 ng-if="actionGameType == 'audio' && (gameId == 1 || gameId == 2)">Miltä laulaminen tuntui tänään?</h3>
+      <h3 ng-if="actionGameType == 'images'">Jumppaa myös musiikin mukana!</h3>
+      <h3 ng-if="actionGameType == 'video'">Miten jumppa sujui tänään?</h3>
+    </div>
+    <p>
+      {{game.credits}}
+    </p>
+    <img src="assets/img/MSSRay.png">
+    <button
+      class="btn btn-block btn-lg btn-primary btn-score"
+      ng-click="quit()">
+        Palaa päävalikkoon
+    </button>
+</div>
