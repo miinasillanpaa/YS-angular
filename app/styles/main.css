@@ -55,6 +55,15 @@
   background-position: center center;
   border-right: 1px solid #e5e5e5;
 }
+.game-row .media-view .plain-question-box {
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+  font-size: 2em;
+  border: 2px solid #fff;
+  text-shadow: 1px 1px 0px black;
+}
 .game-row .media-view .media-controls {
   z-index: 555;
   position: absolute;

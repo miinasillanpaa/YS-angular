@@ -1,1 +1,63 @@
-here be plaingames
+<div class="row game-row">
+
+  <div
+    class="col-xs-12 col-sm-6 col-md-6 col-lg-6 media-view"
+    style="background-image: url({{currentQuestion.image || game.image}})">
+    <div
+      class="plain-question-box alert"
+      ng-hide="showScores">
+      {{currentQuestion.questionText}}
+    </div>
+    <div class="caption">
+      kuva: {{currentQuestion.caption || game.caption}}
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 question-view">
+    <div
+      ng-if="answerWas"
+      class="question-box alert"
+      ng-hide="showScores"
+      ng-class="{'alert-success': answered == 'correct','alert-danger': answered == 'wrong','alert-warning': answered == 'waiting'}">
+        {{answerWas}}
+    </div>
+    <div
+      ng-hide="showScores"
+      class="answers-box plain-answers">
+        <button
+          ng-repeat="answer in currentQuestion.answers"
+          class="btn btn-default btn-block btn-lg answer-choice"
+          ng-click="checkAnswer(answer, $event)"
+          ng-disabled="disableAnswers">
+            {{answer.answerText}}
+        </button>
+        <button
+          ng-show="answered != 'waiting'"
+          class="btn btn-primary btn-block btn-lg"
+          ng-click="answered = 'waiting'; setNextQuestion();">
+            Seuraava kysymys
+        </button>
+    </div>
+
+    <div
+      class="scores"
+      ng-show="showScores">
+        <h1>Peli loppui</h1>
+        <div class="alert alert-info">
+          <h3>{{successText}}</h3>
+          <p>Sait oikeita vastauksia {{successRate | number:0}}%</p>
+        </div>
+        <p>
+          {{game.credits}}
+        </p>
+        <img src="assets/img/MSSRay.png">
+        <button
+          class="btn btn-block btn-lg btn-primary btn-score"
+          ng-click="quit()">
+            Palaa päävalikkoon
+        </button>
+    </div>
+
+  </div>
+
+</div>
