@@ -92,6 +92,15 @@
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
 }
+.game-row .media-view .question-index {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0px 1px 1px #000000;
+  background-color: #000000;
+}
 .game-row .media-view .caption {
   position: absolute;
   bottom: 0;
@@ -297,6 +306,9 @@ body .navbar {
   }
   .game-row .media-view .caption {
     padding: 20px;
+  }
+  .game-row .media-view .question-index {
+    bottom: 60px;
   }
   .game-row .question-view {
     height: 100%;

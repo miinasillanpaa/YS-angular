@@ -8,6 +8,7 @@ angular.module 'ysAngularApp'
     correctAnswers = 0
     questions = null
 
+    $scope.questionsLength = null
     $scope.questionIndex = 0
     $scope.answerWas = null
     $scope.showScores = false
@@ -37,6 +38,7 @@ angular.module 'ysAngularApp'
     httpService.getGame(gameType, gameId).then (game) ->
       $scope.intro = game.data.intro
       questions = shuffleArray(game.data.questions)
+      $scope.questionsLength = questions.length
       $scope.currentQuestion = questions[$scope.questionIndex]
 
     $scope.checkAnswer = (answer, $event) ->

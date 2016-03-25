@@ -8,6 +8,9 @@
       ng-hide="showScores">
       {{currentQuestion.questionText}}
     </div>
+    <div class="question-index">
+      KYSYMYS {{questionIndex+1}}/{{questionsLength+1}}
+    </div>
     <div class="caption">
       kuva: {{currentQuestion.caption || game.caption}}
     </div>
