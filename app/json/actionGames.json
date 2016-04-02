@@ -1,7 +1,7 @@
 [{
 		"guid": 1,
 		"gameType": "audio",
-		"media": "assets/sound/voituotamuistia.mp3",
+		"media": "assets/sound/music/voituotamuistia.mp3",
 		"gameIntro": "Kuulet kohta kappaleen. Laulun sanat näkyvät ruudulla. Laula mukana!",
 		"name": "Karaoke: Voi tuota muistia",
 		"image": "assets/img/pilvi.jpg",
@@ -10,7 +10,7 @@
 	{
 		"guid": 2,
 		"gameType": "audio",
-		"media": "assets/sound/laulunmahti.mp3",
+		"media": "assets/sound/music/laulunmahti.mp3",
 		"gameIntro": "Kuulet kohta kappaleen. Laulun sanat näkyvät ruudulla. Laula mukana!",
 		"name": "Karaoke: Laulun mahti",
 		"image": "assets/img/grammari.jpg",
@@ -19,7 +19,7 @@
 	{
 		"guid": 3,
 		"gameType": "audio",
-		"media": "assets/sound/yksilorentoutus.mp3",
+		"media": "assets/sound/music/yksilorentoutus.mp3",
 		"gameIntro": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Musiikkina on Marais’n Les Folies d´Espagne ja Tárregan Recuerdos de la Alhambra. Harjoitus kestää 7 ja puoli minuuttia.",
 		"name": "Yksilörentoutus",
 		"image": "assets/img/rentoutus/ren2.jpg",
@@ -28,7 +28,7 @@
 	{
 		"guid": 4,
 		"gameType": "audio",
-		"media": "assets/sound/parirentoutus.mp3",
+		"media": "assets/sound/music/parirentoutus.mp3",
 		"gameIntro": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Aloittakaa rentoutus istuutumalla tukevasti selkänojalliselle tuolille. Musiikkina on Tárregan Lágrima, Händelin Largo, Corellin Preludio ja Bachin Siciliano. Kesto 10 ja puoli minuuttia.",
 		"name": "Parirentoutus",
 		"image": "assets/img/rentoutus/ren3.jpg",
