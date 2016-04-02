@@ -6,6 +6,8 @@ angular.module 'ysAngularApp'
     $scope.$watch (-> $location.path()), (newLocation, oldLocation) ->
       if newLocation isnt "/"
         $scope.showBack = true
+      else
+        $scope.showBack = false
 
     $scope.back = ->
       # user might be linked straight to a gametype
@@ -14,6 +16,7 @@ angular.module 'ysAngularApp'
         when '/games/plain' then '/'
         when '/games/music' then '/'
         when '/games/action' then '/'
+        when '/games/lorut' then '/'
 
       if goto
         $location.path(goto)
