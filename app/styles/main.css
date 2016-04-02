@@ -46,13 +46,14 @@
   padding-bottom: 20px;
 }
 .action-game-ended {
+  z-index: 999;
   position: absolute;
   background: #fff;
-  width: 60%;
+  width: 90%;
   left: 50%;
+  margin-left: -45%;
   top: 20px;
   border-radius: 6px;
-  margin-left: -30%;
   padding: 0 40px 40px 40px;
 }
 .action-game-ended img {
@@ -262,6 +263,7 @@ body .navbar {
   display: block;
   position: relative;
   height: calc(100% - 53px);
+  padding: 0;
 }
 .container #ng-view {
   height: 100%;
@@ -352,5 +354,14 @@ body .navbar {
   }
   .game-row .question-view .question-box {
     font-size: 1.7em;
+  }
+  .action-game-ended {
+    position: absolute;
+    background: #fff;
+    width: 70%;
+    left: 50%;
+    top: 20px;
+    border-radius: 6px;
+    margin-left: -30%;
   }
 }
