@@ -11,10 +11,6 @@ angular.module 'ysAngularApp'
     }
     templateUrl: "views/scores.html"
     link: (scope, element, attrs) ->
-      console.log 'scores', scope
-
-      scope.$watch "successText", (successText) ->
-        console.log
 
       scope.quit = ->
         scope.quitFn()
