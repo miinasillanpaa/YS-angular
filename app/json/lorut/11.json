@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 4900},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "koffe laade", "correct":true },
+  			{ "answerText": "kinkke laade" },
+  			{ "answerText": "doffe laade" }
+  		]
+  	}
+  ]
+}

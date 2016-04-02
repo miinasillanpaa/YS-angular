@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 11800},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "älä istu" },
+  			{ "answerText": "istu vaan", "correct":true },
+  			{ "answerText": "istu isän polvel" }
+  		]
+  	}
+  ]
+}

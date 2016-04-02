@@ -1,0 +1,23 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 10900},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "kolipäässä kissalla" },
+  			{ "answerText": "kultaisella varsalla" },
+  			{ "answerText": "valkealla varsalla", "correct":true }
+  		]
+  	},
+  	{
+  		"options": {"playTo": 25500},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "harakka huttua keittää" },
+  			{ "answerText": "harakka halot hakkaa", "correct":true },
+  			{ "answerText": "varis vetää nuottaa" }
+  		]
+  	}
+  ]
+}

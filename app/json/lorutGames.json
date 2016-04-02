@@ -1,0 +1,137 @@
+[
+  {
+		"guid": 1,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Veetään nuottaa",
+		"image": "assets/img/lorut/lorut1.jpg",
+    "media": "assets/sound/lorut/veetaannuottaa.mp3",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 2,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Peukaloputti",
+    "media": "assets/sound/lorut/peukaloputti.mp3",
+		"image": "assets/img/lorut/lorut2.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 3,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Entten tentten",
+    "media": "assets/sound/lorut/enttententten.mp3",
+		"image": "assets/img/lorut/lorut14.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 4,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Maalari maalasi",
+    "media": "assets/sound/lorut/maalarimaalasitaloa.mp3",
+		"image": "assets/img/lorut/lorut4.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 5,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Yks kaks kolme",
+    "media": "assets/sound/lorut/ykskakskolme.mp3",
+		"image": "assets/img/lorut/lorut5.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 6,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Kis kis kissanpoika",
+    "media": "assets/sound/lorut/kiskiskissanpoika.mp3",
+		"image": "assets/img/lorut/lorut13.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 7,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Lennä lennä leppäkerttu",
+    "media": "assets/sound/lorut/lennalennaleppakerttu.mp3",
+		"image": "assets/img/lorut/lorut7.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 8,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Kuu kiurusta",
+    "media": "assets/sound/lorut/kuukiurusta.mp3",
+		"image": "assets/img/lorut/lorut8.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 9,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Mistä on pienet tehty",
+    "media": "assets/sound/lorut/mistaonpienettehty.mp3",
+		"image": "assets/img/lorut/lorut12.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 10,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Viikonloppu",
+    "media": "assets/sound/lorut/viikonpaivat.mp3",
+		"image": "assets/img/lorut/lorut9.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 11,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Ulle dulle",
+    "media": "assets/sound/lorut/ulledulledof.mp3",
+		"image": "assets/img/lorut/lorut10.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 12,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Tuu tuu tupakkirulla",
+    "media": "assets/sound/lorut/tuutuutupakkirulla.mp3",
+		"image": "assets/img/lorut/lorut11.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 13,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Körö körö kirkkoon",
+    "media": "assets/sound/lorut/korokorokirkkoon.mp3",
+		"image": "assets/img/lorut/lorut15.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 14,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Mennään maata",
+    "media": "assets/sound/lorut/mennaanmaata.mp3",
+		"image": "assets/img/lorut/lorut6.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	},
+	{
+		"guid": 15,
+		"gameIntro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+		"name": "Hus sika metsään",
+    "media": "assets/sound/lorut/hussikametsaan.mp3",
+		"image": "assets/img/lorut/lorut3.jpg",
+		"caption": "Miina Sillanpään Säätiö",
+		"credits": "Toteutus ja suunnittelu: Kristiina Sarmas"
+	}
+]

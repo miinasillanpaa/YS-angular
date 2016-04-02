@@ -1,0 +1,23 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 9900},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "härkäläisten kivitietä" },
+  			{ "answerText": "hämäläisten härkätietä", "correct":true },
+  			{ "answerText": "turunlinnan härkätietä" }
+  		]
+  	},
+  	{
+  		"options": {"playTo": 30500},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "onko lasta kätkyeessä", "correct":true },
+  			{ "answerText": "onko lapsi nukkumassa" },
+  			{ "answerText": "joko lapsi nukkuu" }
+  		]
+  	}
+  ]
+}

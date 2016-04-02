@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 7000},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "illan tullen sanoi hän", "correct":true },
+  			{ "answerText": "kun mä lähden talosta" },
+  			{ "answerText": "illan tullen pelistä pois" }
+  		]
+  	}
+  ]
+}

@@ -15,4 +15,10 @@
 	"name": "Toiminnalliset harjoitukset",
 	"target": "action",
 	"image": "assets/img/ikkuna.jpg"
+},
+{
+  "id": 4,
+  "name": "Lorut",
+  "target": "lorut",
+  "image": "assets/img/lorut/lorut15.jpg"
 }]

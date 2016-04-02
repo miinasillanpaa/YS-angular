@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 15000},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "palan taittoi" },
+  			{ "answerText": "makkaran laittoi", "correct":true },
+  			{ "answerText": "makkaran söi" }
+  		]
+  	}
+  ]
+}

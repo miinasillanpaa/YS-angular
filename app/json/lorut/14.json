@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+      "options": {"playTo": 17000},
+      "questionText": "Miten loru jatkuu?",
+      "answers": [
+        { "answerText": "mummon korista" },
+        { "answerText": "mamman kaapista", "correct":true },
+        { "answerText": "isän pellosta" }
+      ]
+    }
+  ]
+}

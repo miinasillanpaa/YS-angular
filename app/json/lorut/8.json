@@ -1,0 +1,14 @@
+{
+  "intro": "Kuulet kohta lorun. Kun loru pysähtyy, valitse vaihtoehdoista sanat, joilla loru jatkuu.",
+  "questions": [
+    {
+  		"options": {"playTo": 5700},
+  		"questionText": "Miten loru jatkuu?",
+  		"answers": [
+  			{ "answerText": "pääskysestä" },
+  			{ "answerText": "kerttusesta" },
+  			{ "answerText": "peipposesta", "correct":true }
+  		]
+  	}
+  ]
+}
