@@ -53,5 +53,10 @@ angular
         controller: 'ActionGameCtrl'
         controllerAs: 'actiongame'
 
+      .when '/games/lorut/:gameId',
+        templateUrl: 'views/musicgame.html'
+        controller: 'MusicGameCtrl'
+        controllerAs: 'musicgame'
+
       .otherwise
         redirectTo: '/'

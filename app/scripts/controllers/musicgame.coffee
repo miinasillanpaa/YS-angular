@@ -5,7 +5,8 @@ angular.module 'ysAngularApp'
   ($scope, $routeParams, httpService, ngAudio, $filter, $timeout, $rootScope, $location) ->
 
     AUDIO_GAP_MS = 2000
-    gameType = "music"
+    # lorut or music
+    gameType = $location.path().substring(7,12)
     gameId = $routeParams.gameId
 
     $rootScope.inGame = true
@@ -81,22 +82,10 @@ angular.module 'ysAngularApp'
               $scope.successText = "Mahtavaa muistamista!"
             $scope.showScores = true
 
-    # $scope.$watch "sound.duration", (duration) ->
-    #
-    #   if duration and !$scope.markers
-    #     console.log 'durr', duration
-    #     markers = []
-    #     for question,index in questions
-    #       marker = $filter('number')((question.options.playTo + (index*AUDIO_GAP_MS))/1000/duration *100,0) + "%"
-    #       markers.push marker
-    #     $scope.markers = markers
-
     # internal
     stopAll = ->
       if $scope.sound and $scope.playing
         $scope.sound.stop()
-      if $scope.fullReplay and $scope.fullReplayPlaying
-        $scope.fullReplay.stop()
 
     # public functions
     $scope.hideModal = ->
@@ -110,8 +99,8 @@ angular.module 'ysAngularApp'
 
     $scope.fullReplay = ->
       $scope.sound.stop()
-      $scope.fullReplay = ngAudio.load($scope.fullReplayPath)
-      $scope.fullReplay.play()
+      $scope.sound = ngAudio.load($scope.fullReplayPath)
+      $scope.sound.play()
       $scope.fullReplayPlaying = true
 
     $scope.checkAnswer = (answer, $event) ->
