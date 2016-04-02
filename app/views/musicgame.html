@@ -31,10 +31,6 @@
           aria-valuemax="1"
           style="width: {{sound.progress*100 | number:0}}%">
             {{sound.progress*100 | number:0}}%
-            <!-- <div class="marker"
-              ng-repeat="marker in markers"
-              style="left:{{marker}}">
-            </div> -->
           </div>
         </div>
 
@@ -79,7 +75,7 @@
     <div
       class="scores"
       ng-show="showScores">
-        <h1>Harjoitus päättyi/h1>
+        <h1>Harjoitus päättyi</h1>
         <div class="alert alert-info">
           <h3>{{successText}}</h3>
           <p>Sait oikeita vastauksia {{successRate | number:0}}%</p>
