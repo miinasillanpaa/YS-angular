@@ -22,8 +22,7 @@ angular
       firstLocationChangeStartDone = true
 
     $rootScope.$on '$locationChangeSuccess', ->
-      # TODO add analytics
-      # $window.ga('send', 'pageview', { page: $location.url() })
+      $window.ga('send', 'pageview', { page: $location.url() })
       $rootScope.actualLocation = $location.path()
 
   .config ($routeProvider) ->
