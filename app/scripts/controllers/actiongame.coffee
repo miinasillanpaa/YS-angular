@@ -9,7 +9,7 @@ angular.module 'ysAngularApp'
     questions = null
 
     $scope.actionGameType = null
-
+    $scope.successText = "Hyvää työtä!"
 
     $scope.endGameConfirm = false
     $scope.gameEnded = false
@@ -36,10 +36,13 @@ angular.module 'ysAngularApp'
 
     # fetch questions and intro
     $scope.$watch "actionGameType", (actionGameType) ->
-      if actionGameType and actionGameType isnt "video"
-        httpService.getGame(gameType, gameId).then (game) ->
-          questions = game.data.questions
-          $scope.currentQuestion = questions[$scope.questionIndex]
+
+      if actionGameType
+        setSuccessText(actionGameType)
+        if actionGameType isnt "video"
+          httpService.getGame(gameType, gameId).then (game) ->
+            questions = game.data.questions
+            $scope.currentQuestion = questions[$scope.questionIndex]
 
     $scope.$watch "sound.currentTime", (currentTime) ->
       if currentTime and $scope.currentQuestion
@@ -61,6 +64,16 @@ angular.module 'ysAngularApp'
         $scope.currentQuestion = questions[$scope.questionIndex]
       else
         $scope.gameEnded = true
+
+    setSuccessText = (actionGameType) ->
+      if actionGameType is "audio" and ($scope.gameId is 1 or $scope.gameId is 2)
+        $scope.successText = "Miltä laulaminen tuntui tänään?"
+      else if actionGameType is "images"
+        $scope.successText = "Jumppaa myös musiikin mukana!"
+      else if actionGameType is "video"
+        $scope.successText = "Miten jumppa sujui tänään"
+      else
+        $scope.successText = "Hyvää työtä!"
 
     $scope.onReady = (event) ->
       $scope.ytPlayer = event.target

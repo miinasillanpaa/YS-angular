@@ -15,7 +15,6 @@
   <button class="btn btn-primary" ng-click="quit()">Kyllä</button>
 </div>
 
-
 <div class="row game-row">
   <div
     class="col-xs-12 col-sm-6 col-md-6 col-lg-6 media-view"
@@ -72,29 +71,19 @@
       </button>
     </div>
 
-    <div
-      class="scores"
-      ng-show="showScores">
-        <h1>Harjoitus päättyi</h1>
-        <div class="alert alert-info">
-          <h3>{{successText}}</h3>
-          <p>Sait oikeita vastauksia {{successRate | number:0}}%</p>
-        </div>
-        <p>
-          {{game.credits}}
-        </p>
-        <img src="assets/img/MSSRay.png">
-        <button
-          class="btn btn-block btn-lg btn-default btn-score"
-          ng-click="fullReplay()">
-            Kuuntele koko kappale alusta
-        </button>
-        <button
-          class="btn btn-block btn-lg btn-primary btn-score"
-          ng-click="quit()">
-            Palaa päävalikkoon
-        </button>
-    </div>
+    <scores
+      ng-show="showScores"
+      success-text="successText"
+      success-rate-text="successRateText"
+      credits="game.credits"
+      quit-fn="quit()">
+    </scores>
+    <button
+      ng-show="showScores"
+      class="btn btn-block btn-lg btn-default btn-score"
+      ng-click="fullReplay()">
+        Kuuntele koko kappale alusta
+    </button>
 
   </div>
 </div>

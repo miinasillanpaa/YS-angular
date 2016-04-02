@@ -1,13 +1,13 @@
 'use strict'
 
 angular.module 'ysAngularApp'
-  .controller 'PlainGameCtrl', ($scope, $routeParams, httpService, $location) ->
+  .controller 'PlainGameCtrl', ($scope, $routeParams, httpService, $location, $filter) ->
 
     gameType = "plain"
     gameId = $routeParams.gameId
     correctAnswers = 0
     questions = null
-    
+
     $scope.showModal = true
     $scope.questionsLength = null
     $scope.questionIndex = 0
@@ -65,6 +65,8 @@ angular.module 'ysAngularApp'
       $scope.disableAnswers = false
       if $scope.questionIndex is questions.length
         $scope.successRate = correctAnswers/questions.length*100
+        $scope.successRateFiltered = $filter('number')($scope.successRate, 0)
+        $scope.successRateText = "Sait oikeita vastauksia #{$scope.successRateFiltered}%"
         if $scope.successRate <= 50
           $scope.successText = "Harjoitellaan vielä"
         else if $scope.successRate <= 70

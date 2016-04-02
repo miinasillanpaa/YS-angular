@@ -1,0 +1,23 @@
+<div class="scores">
+  <h1>
+    Harjoitus päättyi
+  </h1>
+  <div class="alert alert-info">
+    <h3>
+      {{successText}}
+    </h3>
+    <p ng-if="successRateText">
+      {{successRateText}}
+    </p>
+  </div>
+  <p>
+    {{credits}}
+  </p>
+  <img src="assets/img/MSSRay.png">
+
+  <button
+    class="btn btn-block btn-lg btn-primary btn-score"
+    ng-click="quit()">
+      Palaa päävalikkoon
+  </button>
+</div>

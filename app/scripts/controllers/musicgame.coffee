@@ -71,7 +71,8 @@ angular.module 'ysAngularApp'
           # end
           if currentTime >= $scope.sound.duration-2
             $scope.successRate = correctAnswers/questions.length*100
-
+            $scope.successRateFiltered = $filter('number')($scope.successRate, 0)
+            $scope.successRateText = "Sait oikeita vastauksia #{$scope.successRateFiltered}%"
             if $scope.successRate <= 50
               $scope.successText = "Harjoitellaan vielä"
             else if $scope.successRate <= 70
