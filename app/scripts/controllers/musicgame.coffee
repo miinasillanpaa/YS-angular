@@ -132,10 +132,14 @@ angular.module 'ysAngularApp'
 
     $scope.quit = ->
       stopAll()
-      $scope.endGameConfirm = false
-      $rootScope.userConfirmedQuit = true
-      $location.path "/games/#{gameType}"
+      $scope.$applyAsync ->
+        $scope.endGameConfirm = false
+        $rootScope.userConfirmedQuit = true
+        $location.path "/games/#{gameType}"
 
     $rootScope.$on 'showConfirm', ->
-      $scope.sound.pause()
-      $scope.endGameConfirm = true
+      if $scope.showScores
+        $scope.quit()
+      else
+        $scope.sound.pause()
+        $scope.endGameConfirm = true
