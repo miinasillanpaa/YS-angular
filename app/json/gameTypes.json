@@ -1,18 +1,18 @@
 [{
   "id": 1,
-	"name": "Kielelliset harjoitukset",
+	"name": "Tietovisa",
 	"target": "plain",
   "image": "assets/img/default.jpg"
 },
 {
   "id": 2,
-	"name": "Musiikilliset harjoitukset",
+	"name": "Musiikkivisa",
 	"target": "music",
 	"image": "assets/img/grammari.jpg"
 },
 {
   "id": 3,
-	"name": "Toiminnalliset harjoitukset",
+	"name": "Laulua, rentoutusta ja jumppaa",
 	"target": "action",
 	"image": "assets/img/ikkuna.jpg"
 },

@@ -232,12 +232,23 @@ body .navbar {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+  font-weight: bold;
+  font-size: 110%;
 }
 .header a {
   cursor: default;
 }
+.header .navbar-nav {
+  margin: 0;
+}
 .header .navbar-nav a {
   cursor: pointer;
+}
+.header .navbar-nav .back {
+  color: #333;
+}
+.header .navbar-nav .back:hover {
+  color: black;
 }
 .header .navbar-brand {
   position: absolute;
@@ -309,6 +320,12 @@ body .navbar {
   .footer {
     padding-left: 0;
     padding-right: 0;
+  }
+  .header .navbar-nav {
+    margin: 0 -15px;
+  }
+  .header .navbar-nav a {
+    cursor: pointer;
   }
   .game-entry {
     height: 225px;

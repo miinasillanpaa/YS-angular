@@ -19,17 +19,22 @@ html, body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+  font-weight: bold;
+  font-size: 110%;
   a{
     cursor: default;
   }
-  .navbar-nav a {
-    cursor: pointer;
-  }
-
-  .navbar-default {
-    // .container {
-    //   border: 0;
-    // }
+  .navbar-nav {
+    margin: 0;
+    a {
+      cursor: pointer;
+    }
+    .back {
+      color: #333;
+      &:hover {
+        color: black;
+      }
+    }
   }
 
   .navbar-brand {

@@ -3,11 +3,17 @@
 angular.module 'ysAngularApp'
   .controller 'HeaderCtrl', ($scope, $location, $window) ->
     $scope.showBack = false
+    $scope.headerTitle = "Sanat sekaisin"
     $scope.$watch (-> $location.path()), (newLocation, oldLocation) ->
       if newLocation isnt "/"
         $scope.showBack = true
       else
         $scope.showBack = false
+
+      if newLocation.indexOf('action') > -1
+        $scope.headerTitle = "Musiikin mukaan"
+      else
+        $scope.headerTitle = "Sanat sekaisin"
 
     $scope.back = ->
       # user might be linked straight to a gametype
