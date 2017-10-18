@@ -2,14 +2,11 @@
 
 angular.module 'ysAngularApp'
   .controller 'HeaderCtrl', ($scope, $location, $window) ->
-    $scope.showBack = false
+    $scope.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
     $scope.headerTitle = "Sanat sekaisin"
+    
     $scope.$watch (-> $location.path()), (newLocation, oldLocation) ->
-      if newLocation isnt "/"
-        $scope.showBack = true
-      else
-        $scope.showBack = false
-
+      $scope.locationPath = newLocation
       if newLocation.indexOf('action') > -1
         $scope.headerTitle = "Musiikin mukaan"
       else
@@ -18,6 +15,10 @@ angular.module 'ysAngularApp'
     $scope.back = ->
       # user might be linked straight to a gametype
       # else just use window.history.back()
+      if $location.path() is '/'
+        $window.location.href =  'http://www.miinasillanpaa.fi'
+        return
+
       goto = switch $location.path()
         when '/games/plain' then '/'
         when '/games/music' then '/'

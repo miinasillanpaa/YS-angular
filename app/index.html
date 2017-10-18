@@ -27,7 +27,7 @@
           </div>
           <a class="navbar-brand clickable" ng-bind="headerTitle"></a>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left" ng-show="showBack">
+            <ul class="nav navbar-nav navbar-left" ng-hide="isMobile && locationPath == '/'">
                 <li><a class="clickable back" ng-click="back()">Takaisin</a></li>
             </ul>
           </div>
