@@ -25,7 +25,8 @@ angular
       $window.ga('send', 'pageview', { page: $location.url() })
       $rootScope.actualLocation = $location.path()
 
-  .config ($routeProvider) ->
+  .config ($routeProvider, $locationProvider) ->
+    $locationProvider.hashPrefix('')
     $routeProvider
       .when '/',
         templateUrl: 'views/main.html'
