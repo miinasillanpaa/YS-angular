@@ -16,7 +16,7 @@ angular.module 'ysAngularApp'
       # user might be linked straight to a gametype
       # else just use window.history.back()
       if $location.path() is '/'
-        $window.location.href =  'http://www.miinasillanpaa.fi'
+        $window.location.href =  'http://www.miinasillanpaa.fi/impulssi'
         return
 
       goto = switch $location.path()
